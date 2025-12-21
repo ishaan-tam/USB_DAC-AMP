@@ -1,5 +1,84 @@
 # Pocket USB DAC Headphone Amp
 
+# USB DAC + Baxandall Tone Control Headphone Amp  
+**Checklist / Build Plan**
+
+---
+
+## Phase 0 — Lock the architecture
+- [ ] Use **Phil’s USB headphone amplifier** as the base design
+  - [ ] USB-C power + data
+  - [ ] USB audio codec (PCM290x family)
+  - [ ] DAC output buffer / reconstruction filter
+  - [ ] Volume control stage
+  - [ ] Output/current-drive stage to headphone jack
+- [ ] Insert **TI Baxandall bass/treble tone control** as a line-level block
+  - [ ] Signal flow:  
+    **Phil DAC buffer → TI Baxandall tone → Phil volume → Phil output stage**
+- [ ] Decide on **single master volume**
+  - [ ] Use Phil’s volume control only
+  - [ ] Bypass TI’s R1/R2 volume pots
+
+---
+
+## Phase 1 — KiCad schematic integration
+- [ ] Create a **combined KiCad schematic**
+  - [ ] Start from Phil’s schematic as the backbone
+  - [ ] Add TI Baxandall tone block between Phil buffer output and Phil volume input
+  - [ ] Keep TI input buffers initially (lower risk)
+- [ ] **Bypass TI R1/R2 (volume pots)**
+  - [ ] Remove R1/R2 from the TI tone schematic
+  - [ ] Feed TI input buffer directly from the coupling cap
+  - [ ] Add a DC bias path so the node does not float
+  - [ ] (Optional) Add footprints / jumpers to re-enable pots if needed
+- [ ] **Resolve virtual ground vs real ground**
+  - [ ] Identify Phil’s analog reference / bias node (half-rail if single-supply)
+  - [ ] Tie all TI “mid” nodes to Phil’s analog reference
+  - [ ] Do NOT generate a separate TI virtual ground if Phil already provides one
+- [ ] Perform a **sanity check**
+  - [ ] Verify signal levels between stages
+  - [ ] Ensure tone boost will not clip internal op-amps
+  - [ ] Ensure compatibility with Phil’s volume stage input impedance
+
+---
+
+## Phase 2 — BOM & sourcing
+- [ ] Create a **BOM from the combined schematic**
+  - [ ] ICs (codec, op-amps, regulators)
+  - [ ] Precision resistors where required
+  - [ ] Capacitors (type + voltage rating)
+  - [ ] Dual-gang pots for bass/treble
+  - [ ] USB-C connector, headphone jack
+  - [ ] Protection parts (ESD diodes, fuses, ferrites)
+- [ ] Align BOM with **JLCPCB / LCSC availability**
+  - [ ] Decide which ICs are hand-soldered
+  - [ ] Mark which passives are PCBA-assembled
+- [ ] Order parts
+  - [ ] Order extras for iteration (pots, op-amps, passives)
+
+---
+
+## Phase 3 — Build & test
+- [ ] Bring-up in stages
+  - [ ] Test Phil’s base circuit (USB enumeration + clean audio)
+  - [ ] Enable TI Baxandall tone block
+  - [ ] Verify flat response at center
+  - [ ] Verify bass/treble behavior
+- [ ] Full system test
+  - [ ] Verify volume control behavior
+  - [ ] Test with headphones
+  - [ ] Listen for noise, clipping, oscillation
+
+---
+
+## Phase 4 — Rev A refinement
+- [ ] Adjust Baxandall network for **subtle** tone range if needed
+- [ ] Improve decoupling/layout if noise or instability appears
+- [ ] Finalize schematic and prepare for PCB layout / PCBA
+
+
+
+
 A compact, USB-powered headphone amplifier built around a **class-compliant USB audio codec**, with an **analog signal path**, **physical volume control**, and room to add **Baxandall bass/treble tone shaping** in later revisions.
 
 This project prioritizes:
