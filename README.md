@@ -3,6 +3,8 @@
 # USB DAC + Baxandall Tone Control Headphone Amp  
 **Checklist / Build Plan**
 
+make sure that resistors are thin film 
+
 ---
 
 ## Phase 0 — Lock the architecture
