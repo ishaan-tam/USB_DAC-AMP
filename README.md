@@ -3,8 +3,11 @@
 # USB DAC + Baxandall Tone Control Headphone Amp  
 **Checklist / Build Plan**
 
-make sure that resistors are thin film 
+make sure that resistors are thin film, thich film resistors can introduce distortion
+Chose electrolytic caps in the signal path as long as they are large enough, if chosing ceramic (sepecially in the signal path) chose type cog, otehrwise most ceramic caps will have piezoelectric effects and will introduce distortion 
+bypass caps can be pretty much any type
 
+For voltage ratings, useually go with double of what the expected DC voltage is
 ---
 
 ## Phase 0 — Lock the architecture
