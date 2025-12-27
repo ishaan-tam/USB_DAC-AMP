@@ -1,4 +1,4 @@
-26846145386640989
+26847912203416598
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62712,6 +62712,13 @@ heatsink
 0
 0
 0
+Imported_footprints
+GCT_USB4105-GF-A
+
+
+0
+16
+16
 Imported_footprints
 SJ-3524-SMT
 
