@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffef",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffaf",
     "zone_display_mode": 0
   },
   "git": {
@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "USB_DAC-AMP.kicad_prl",
+    "filename": "USB_DAC-AMP_V4_credit_card.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -92,18 +92,18 @@
       11
     ],
     "col_widths": [
-      162,
-      147,
-      91,
-      67,
-      91,
-      91,
-      91,
-      71,
-      91,
-      91,
-      91,
-      91
+      41,
+      37,
+      23,
+      17,
+      23,
+      23,
+      23,
+      18,
+      23,
+      23,
+      23,
+      23
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

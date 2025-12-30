@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 17,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "USB_DAC-AMP.kicad_prl",
+    "filename": "USB_DAC-AMP_V2_different_layout.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -92,18 +92,18 @@
       11
     ],
     "col_widths": [
-      162,
-      147,
-      91,
-      67,
-      91,
-      91,
-      91,
-      71,
-      91,
-      91,
-      91,
-      91
+      81,
+      74,
+      46,
+      34,
+      46,
+      46,
+      46,
+      36,
+      46,
+      46,
+      46,
+      46
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

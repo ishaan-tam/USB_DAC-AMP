@@ -3789,6 +3789,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PTN092-H20115K1A:PTN092-H20115K1A"
 			(pin_names
 				(offset 1.016)
@@ -5388,12 +5471,6 @@
 		(uuid "7aaa3ea6-8a52-45c9-93bb-0955fd1c0764")
 	)
 	(junction
-		(at 48.26 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d38e0e5-e99e-4fc0-96f7-76145d1d6bc3")
-	)
-	(junction
 		(at 530.86 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5476,6 +5553,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "956a6eea-316e-4912-b73a-fbd5a1d47227")
+	)
+	(junction
+		(at 43.18 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "980ce9db-8dcc-4afc-a185-189324183a2f")
 	)
 	(junction
 		(at 326.39 40.64)
@@ -5568,6 +5651,12 @@
 		(uuid "ae405d82-b60c-4a57-abc5-75fc511089a6")
 	)
 	(junction
+		(at 53.34 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af165d9a-ef37-475a-b824-98b42d6d530a")
+	)
+	(junction
 		(at 294.64 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5590,6 +5679,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5b09608-b1e6-44f2-9e49-ff55fc3782ea")
+	)
+	(junction
+		(at 43.18 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7ccaef5-3c75-4167-af76-627c7f04873f")
 	)
 	(junction
 		(at 443.23 279.4)
@@ -5997,7 +6092,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 204.47) (xy 48.26 207.01)
+			(xy 43.18 204.47) (xy 43.18 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6117,6 +6212,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 204.47) (xy 53.34 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e0a227d-d42d-4617-9b6f-0e6bdc5b3d9e")
+	)
+	(wire
+		(pts
 			(xy 560.07 96.52) (xy 560.07 95.25)
 		)
 		(stroke
@@ -6157,7 +6262,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 214.63) (xy 48.26 217.17)
+			(xy 43.18 214.63) (xy 43.18 217.17)
 		)
 		(stroke
 			(width 0)
@@ -7047,6 +7152,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 204.47) (xy 53.34 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f4145e2-1d03-4a9d-83f2-842918ebc0dd")
+	)
+	(wire
+		(pts
 			(xy 351.79 52.07) (xy 363.22 52.07)
 		)
 		(stroke
@@ -7487,6 +7602,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 204.47) (xy 55.88 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564ed8e9-58bd-4d4e-a984-8d0a6c118481")
+	)
+	(wire
+		(pts
 			(xy 438.15 147.32) (xy 438.15 149.86)
 		)
 		(stroke
@@ -7684,6 +7809,16 @@
 			(type default)
 		)
 		(uuid "6410ecdd-b773-4235-855c-8472df69a004")
+	)
+	(wire
+		(pts
+			(xy 53.34 217.17) (xy 43.18 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64da7291-0fe4-42fd-9df4-653be12ec144")
 	)
 	(wire
 		(pts
@@ -8427,6 +8562,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 214.63) (xy 53.34 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de8aa2d-54c1-4fd6-ba40-b559696aeefb")
+	)
+	(wire
+		(pts
 			(xy 81.28 191.77) (xy 81.28 194.31)
 		)
 		(stroke
@@ -8887,7 +9032,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 217.17) (xy 38.1 217.17)
+			(xy 43.18 217.17) (xy 38.1 217.17)
 		)
 		(stroke
 			(width 0)
@@ -8934,16 +9079,6 @@
 			(type default)
 		)
 		(uuid "ae3c3235-1ee8-429e-b342-bfddae3a9a35")
-	)
-	(wire
-		(pts
-			(xy 48.26 204.47) (xy 55.88 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae801047-db3d-485e-a8ab-9d4b33dc065e")
 	)
 	(wire
 		(pts
@@ -9647,7 +9782,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 204.47) (xy 48.26 204.47)
+			(xy 38.1 204.47) (xy 43.18 204.47)
 		)
 		(stroke
 			(width 0)
@@ -10969,6 +11104,70 @@
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 546.1 326.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c340619-46d0-4075-b032-5d4f7432fb9a")
+		(property "Reference" "H3"
+			(at 548.64 325.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 548.64 327.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 546.1 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 546.1 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 546.1 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "USB_DAC-AMP_V2_different_layout"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -14554,10 +14753,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "49f5b214-0f43-4b08-b5e0-a27cdfa566ea")
 		(property "Reference" "R25"
-			(at 40.64 209.5499 0)
+			(at 32.258 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14566,7 +14764,7 @@
 			)
 		)
 		(property "Value" "22K"
-			(at 40.64 212.0899 0)
+			(at 32.258 210.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15327,6 +15525,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 546.1 332.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "582883fb-df4a-4ea9-945a-502594b6bd37")
+		(property "Reference" "H4"
+			(at 548.64 331.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 548.64 334.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 546.1 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 546.1 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 546.1 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "USB_DAC-AMP_V2_different_layout"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 378.46 40.64 180)
 		(unit 1)
@@ -16053,6 +16315,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 546.1 320.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68593f49-6c28-4582-bd2e-dbcad6700764")
+		(property "Reference" "H2"
+			(at 548.64 318.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 548.64 321.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 546.1 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 546.1 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 546.1 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "USB_DAC-AMP_V2_different_layout"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 236.22 96.52 0)
 		(mirror y)
@@ -16377,28 +16703,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "0db1f2bd-e56a-4aa5-9a55-9a15003c64ad")
+			(uuid "0db1f2bd-e56a-4aa5-9a55-9a15003c64ae")
 		)
 		(pin "1"
-			(uuid "f6068f82-6489-4892-b1f9-217b22391cba")
+			(uuid "f6068f82-6489-4892-b1f9-217b22391cbb")
 		)
 		(pin "2"
-			(uuid "d121d416-f322-4747-8fbd-a4b5b829f9db")
+			(uuid "d121d416-f322-4747-8fbd-a4b5b829f9dc")
 		)
 		(pin "5"
-			(uuid "eafb5626-3f8a-42ec-8471-0f0fcf5b5218")
+			(uuid "eafb5626-3f8a-42ec-8471-0f0fcf5b5219")
 		)
 		(pin "7"
-			(uuid "205aeb2a-e130-455d-be7c-76f0dc559ae7")
+			(uuid "205aeb2a-e130-455d-be7c-76f0dc559ae8")
 		)
 		(pin "8"
-			(uuid "f4a63ccf-20e8-4b5d-a33f-5a60e2c207de")
+			(uuid "f4a63ccf-20e8-4b5d-a33f-5a60e2c207df")
 		)
 		(pin "4"
-			(uuid "a8573b95-f8b8-484f-9540-350af0548021")
+			(uuid "a8573b95-f8b8-484f-9540-350af0548022")
 		)
 		(pin "3"
-			(uuid "ae2834b6-6d43-4164-968a-20936d0b01be")
+			(uuid "ae2834b6-6d43-4164-968a-20936d0b01bf")
 		)
 		(instances
 			(project ""
@@ -18997,7 +19323,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 48.26 210.82 0)
+		(at 43.18 210.82 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19006,7 +19332,7 @@
 		(dnp no)
 		(uuid "8ea45da3-b9de-4bb2-9f47-a0724ca2ff52")
 		(property "Reference" "C27"
-			(at 44.45 209.5499 0)
+			(at 49.022 209.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19014,8 +19340,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1000u"
-			(at 44.45 212.0899 0)
+		(property "Value" "100u"
+			(at 50.8 211.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19024,7 +19350,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
-			(at 49.2252 207.01 0)
+			(at 44.1452 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19033,7 +19359,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 210.82 0)
+			(at 43.18 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19042,7 +19368,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 48.26 210.82 0)
+			(at 43.18 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19623,6 +19949,70 @@
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 546.1 313.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a7fa9bf-0fbf-4275-8277-7853a5eaaedc")
+		(property "Reference" "H1"
+			(at 548.64 312.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 548.64 314.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 546.1 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 546.1 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 546.1 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -21094,6 +21484,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 53.34 210.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0bdcdf0-5013-4b8f-847d-c1efded778db")
+		(property "Reference" "C47"
+			(at 57.15 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 57.15 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 52.3748 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 53.34 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40f88878-ef5b-441f-8207-297340b94ee1")
+		)
+		(pin "2"
+			(uuid "983a3b65-6272-484a-ad5a-b500b5f52ccc")
+		)
+		(instances
+			(project "USB_DAC-AMP_V2_different_layout"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 38.1 191.77 0)
 		(unit 1)
@@ -21575,7 +22035,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2"
+		(property "Value" "1"
 			(at 484.505 35.179 0)
 			(effects
 				(font
@@ -22364,28 +22824,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "0db1f2bd-e56a-4aa5-9a55-9a15003c64ad")
+			(uuid "0db1f2bd-e56a-4aa5-9a55-9a15003c64af")
 		)
 		(pin "1"
-			(uuid "f6068f82-6489-4892-b1f9-217b22391cba")
+			(uuid "f6068f82-6489-4892-b1f9-217b22391cbc")
 		)
 		(pin "2"
-			(uuid "d121d416-f322-4747-8fbd-a4b5b829f9db")
+			(uuid "d121d416-f322-4747-8fbd-a4b5b829f9dd")
 		)
 		(pin "5"
-			(uuid "eafb5626-3f8a-42ec-8471-0f0fcf5b5218")
+			(uuid "eafb5626-3f8a-42ec-8471-0f0fcf5b521a")
 		)
 		(pin "7"
-			(uuid "205aeb2a-e130-455d-be7c-76f0dc559ae7")
+			(uuid "205aeb2a-e130-455d-be7c-76f0dc559ae9")
 		)
 		(pin "8"
-			(uuid "f4a63ccf-20e8-4b5d-a33f-5a60e2c207de")
+			(uuid "f4a63ccf-20e8-4b5d-a33f-5a60e2c207e0")
 		)
 		(pin "4"
-			(uuid "a8573b95-f8b8-484f-9540-350af0548021")
+			(uuid "a8573b95-f8b8-484f-9540-350af0548023")
 		)
 		(pin "3"
-			(uuid "ae2834b6-6d43-4164-968a-20936d0b01be")
+			(uuid "ae2834b6-6d43-4164-968a-20936d0b01c0")
 		)
 		(instances
 			(project ""
