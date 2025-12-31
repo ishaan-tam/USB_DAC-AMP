@@ -2022,6 +2022,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Crystal_GND24_Small"
 			(pin_names
 				(offset 1.016)
@@ -5040,20 +5201,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Chose fairly sizeable electrolytic capacitors, \nif chosing ceramic, especially in the signal path, chose type cog\nfor bypass, use whatever"
-		(exclude_from_sim no)
-		(at 237.998 133.35 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(color 255 2 11 1)
-			)
-		)
-		(uuid "027eb89a-7974-42b7-8614-768a27217b08")
-	)
 	(text "AKA Test 1\n"
 		(exclude_from_sim no)
-		(at 489.966 59.944 0)
+		(at 487.426 80.264 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5091,31 +5241,9 @@
 		)
 		(uuid "7f9d79a1-12df-4e25-a6c3-ed9377025b0a")
 	)
-	(text "check this, datasheet says 10uf\n"
-		(exclude_from_sim no)
-		(at 577.85 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 253 0 0 1)
-			)
-		)
-		(uuid "9eb06369-8821-4240-9d11-0585d19d7436")
-	)
-	(text "Make sure that the pins in the layout match up and all are accounted for, \nincluding voltage lines, check why only A4 is tied to VBUS, \ncross check with Phil's lab video \n"
-		(exclude_from_sim no)
-		(at 93.218 24.13 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(color 255 2 4 1)
-			)
-		)
-		(uuid "c60fbfe6-13bc-4014-bb38-8dc40bb4dd1b")
-	)
 	(text "AKA Test0\n"
 		(exclude_from_sim no)
-		(at 469.9 60.198 0)
+		(at 467.36 80.518 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5152,7 +5280,7 @@
 		(uuid "083135ca-899e-4764-b80a-03a7597f8907")
 	)
 	(junction
-		(at 445.77 57.15)
+		(at 443.23 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0bf70cc8-250c-4703-bc89-db1a7153c42c")
@@ -5200,7 +5328,7 @@
 		(uuid "1f10bb7f-2236-4f98-9956-a276b1a974b6")
 	)
 	(junction
-		(at 541.02 96.52)
+		(at 538.48 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "226ffa6f-36b6-4725-a693-7af1c49d3e2b")
@@ -5236,7 +5364,7 @@
 		(uuid "27d36c77-29ac-4af8-b04a-a3b1af0a52ff")
 	)
 	(junction
-		(at 549.91 96.52)
+		(at 547.37 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "285380bf-6785-44b9-8878-f9bbe4e7644c")
@@ -5284,25 +5412,25 @@
 		(uuid "2f7089c2-2df4-4543-9fd7-74858ce1fee9")
 	)
 	(junction
-		(at 461.01 63.5)
+		(at 458.47 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "317ba1f0-d69e-496b-b1ff-720b640f3de6")
 	)
 	(junction
-		(at 477.52 43.18)
+		(at 474.98 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "325449f4-fd3a-4637-8718-d5c27fa91b90")
 	)
 	(junction
-		(at 520.7 49.53)
+		(at 518.16 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33900e59-6957-45f9-a231-6d58bb98d56a")
 	)
 	(junction
-		(at 453.39 53.34)
+		(at 450.85 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3394950f-4f33-4a67-afeb-93b9684d0770")
@@ -5356,7 +5484,7 @@
 		(uuid "545bc09b-4b83-409b-9190-2c0278007e92")
 	)
 	(junction
-		(at 560.07 96.52)
+		(at 557.53 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56143374-93fc-4270-80ab-62aa93cd7f40")
@@ -5392,16 +5520,10 @@
 		(uuid "61a97680-fc54-4ab1-b155-267062b87ca4")
 	)
 	(junction
-		(at 445.77 53.34)
+		(at 443.23 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63b56b45-f076-4a99-81d5-2d3cdf0ada02")
-	)
-	(junction
-		(at 363.22 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64bf9560-646f-462a-b40e-71b0ae390361")
 	)
 	(junction
 		(at 435.61 238.76)
@@ -5440,7 +5562,7 @@
 		(uuid "71a7b566-cb53-4818-871e-cf9b83ac6bee")
 	)
 	(junction
-		(at 520.7 59.69)
+		(at 518.16 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7488d051-0414-435b-b064-bc83a2a34fb7")
@@ -5452,7 +5574,7 @@
 		(uuid "756f99b8-a997-4736-bce3-41e94812e8b2")
 	)
 	(junction
-		(at 534.67 66.04)
+		(at 532.13 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77f23eb2-7ed4-4fb5-b1b4-644d3ae88394")
@@ -5512,7 +5634,7 @@
 		(uuid "83adf8e2-fd53-4429-9d44-f0f2c079c807")
 	)
 	(junction
-		(at 482.6 92.71)
+		(at 480.06 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8516599f-a1ec-4031-b88e-106890b3a0e7")
@@ -5524,7 +5646,7 @@
 		(uuid "85471ce0-701f-47b7-a32d-ceafbc9f1078")
 	)
 	(junction
-		(at 534.67 67.31)
+		(at 532.13 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85f0d7d2-1ad8-49d7-aa0f-37d825677a5d")
@@ -5536,13 +5658,13 @@
 		(uuid "8a187dc2-61b2-43ac-8781-9c44ada2ffdc")
 	)
 	(junction
-		(at 365.76 40.64)
+		(at 361.95 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ce67af3-63f7-4142-9ff8-8febf43208f7")
 	)
 	(junction
-		(at 477.52 92.71)
+		(at 474.98 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9072541f-8b54-49d5-8857-6c9450cfe51a")
@@ -5566,12 +5688,6 @@
 		(uuid "956a6eea-316e-4912-b73a-fbd5a1d47227")
 	)
 	(junction
-		(at 43.18 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "980ce9db-8dcc-4afc-a185-189324183a2f")
-	)
-	(junction
 		(at 326.39 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5590,7 +5706,7 @@
 		(uuid "9c038626-480c-4b24-8b51-e92911fae6d9")
 	)
 	(junction
-		(at 433.07 63.5)
+		(at 430.53 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c8dc7be-24f2-48e5-b7cf-ba5128a06c81")
@@ -5644,7 +5760,7 @@
 		(uuid "ad737307-097a-4ecd-ae04-3a4b7435b268")
 	)
 	(junction
-		(at 372.11 40.64)
+		(at 368.3 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adf98daa-1d33-422d-aeef-df9aab65df67")
@@ -5662,12 +5778,6 @@
 		(uuid "ae405d82-b60c-4a57-abc5-75fc511089a6")
 	)
 	(junction
-		(at 53.34 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af165d9a-ef37-475a-b824-98b42d6d530a")
-	)
-	(junction
 		(at 294.64 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5680,7 +5790,7 @@
 		(uuid "b444ba90-e522-4484-a139-2cfaeaa7681d")
 	)
 	(junction
-		(at 433.07 83.82)
+		(at 430.53 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4965afd-dd97-4625-b7b8-891374d206c4")
@@ -5692,19 +5802,13 @@
 		(uuid "b5b09608-b1e6-44f2-9e49-ff55fc3782ea")
 	)
 	(junction
-		(at 43.18 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7ccaef5-3c75-4167-af76-627c7f04873f")
-	)
-	(junction
 		(at 443.23 279.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b939c2b7-2d37-4525-ad87-5e9dcda0480a")
 	)
 	(junction
-		(at 560.07 76.2)
+		(at 557.53 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc4f93e0-511e-4c2f-ab2a-bfd2097a004f")
@@ -5716,7 +5820,7 @@
 		(uuid "bd292d7b-0020-4eb0-aa49-60beabb6b74b")
 	)
 	(junction
-		(at 480.06 92.71)
+		(at 477.52 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c151ceab-4d2d-4118-906c-b96f0dfa4f49")
@@ -5752,7 +5856,7 @@
 		(uuid "c778ec8a-175a-4efe-825b-2ad083a505b2")
 	)
 	(junction
-		(at 539.75 49.53)
+		(at 537.21 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cccecc76-a8b6-4e10-8ba6-ce0812340593")
@@ -5762,12 +5866,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfdfe762-b1b7-46d1-978c-de942ffccac2")
-	)
-	(junction
-		(at 363.22 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1e2aefb-b535-4e7d-9680-34ab1b6b5745")
 	)
 	(junction
 		(at 438.15 149.86)
@@ -5806,7 +5904,7 @@
 		(uuid "d8f32f6f-ea8e-4d06-a7dc-1aa53fea24aa")
 	)
 	(junction
-		(at 532.13 96.52)
+		(at 529.59 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dae1034e-0c95-4702-ae40-71ef0b01e1c1")
@@ -5818,7 +5916,7 @@
 		(uuid "db342fa4-f016-42c6-b6ee-71f4ab5866e4")
 	)
 	(junction
-		(at 480.06 40.64)
+		(at 477.52 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dba8ed88-dc49-4cc4-9adf-da23d0c6bbc6")
@@ -5836,7 +5934,7 @@
 		(uuid "dbe85d4c-df87-4be9-a987-7053186e7edf")
 	)
 	(junction
-		(at 539.75 59.69)
+		(at 537.21 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc13c2d5-1e75-4604-a7fd-0c5c3f3055f9")
@@ -5876,6 +5974,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edf60c66-e048-4f73-adf9-50ac4ef49fdd")
+	)
+	(junction
+		(at 46.99 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee595392-7978-4375-8407-4b74e5f38503")
 	)
 	(junction
 		(at 213.36 92.71)
@@ -5922,7 +6026,7 @@
 		(uuid "0744a83d-4879-4bf2-acbc-db2da1a2c51a")
 	)
 	(no_connect
-		(at 462.28 76.2)
+		(at 459.74 96.52)
 		(uuid "0a6239b9-6cd5-4ac4-b9ab-1907a5e0704d")
 	)
 	(no_connect
@@ -5954,11 +6058,11 @@
 		(uuid "6aa5a348-690b-408f-b812-701e6efee4ba")
 	)
 	(no_connect
-		(at 462.28 73.66)
+		(at 459.74 93.98)
 		(uuid "777f2ded-b666-450d-bf05-f3f9936ca4bb")
 	)
 	(no_connect
-		(at 462.28 71.12)
+		(at 459.74 91.44)
 		(uuid "85085c90-9e72-42ca-a50c-d29b12cf37fd")
 	)
 	(no_connect
@@ -5970,11 +6074,11 @@
 		(uuid "abbf107d-b083-40b0-83ef-e4eab6583db5")
 	)
 	(no_connect
-		(at 497.84 58.42)
+		(at 495.3 78.74)
 		(uuid "caccbb02-312f-4be3-8e5b-80c5b2b7f9d9")
 	)
 	(no_connect
-		(at 462.28 78.74)
+		(at 459.74 99.06)
 		(uuid "cc9e4738-ed10-4d7e-8d47-c7180b303809")
 	)
 	(no_connect
@@ -6013,7 +6117,7 @@
 	)
 	(wire
 		(pts
-			(xy 511.81 49.53) (xy 520.7 49.53)
+			(xy 509.27 69.85) (xy 518.16 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6053,7 +6157,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 59.69) (xy 539.75 59.69)
+			(xy 529.59 80.01) (xy 537.21 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6103,7 +6207,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 204.47) (xy 43.18 207.01)
+			(xy 46.99 204.47) (xy 46.99 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6213,7 +6317,7 @@
 	)
 	(wire
 		(pts
-			(xy 549.91 95.25) (xy 549.91 96.52)
+			(xy 547.37 115.57) (xy 547.37 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6223,17 +6327,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 204.47) (xy 53.34 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e0a227d-d42d-4617-9b6f-0e6bdc5b3d9e")
-	)
-	(wire
-		(pts
-			(xy 560.07 96.52) (xy 560.07 95.25)
+			(xy 557.53 116.84) (xy 557.53 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6273,7 +6367,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 214.63) (xy 43.18 217.17)
+			(xy 46.99 214.63) (xy 46.99 217.17)
 		)
 		(stroke
 			(width 0)
@@ -6313,7 +6407,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 83.82) (xy 462.28 83.82)
+			(xy 458.47 104.14) (xy 459.74 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6343,7 +6437,7 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 95.25) (xy 523.24 96.52)
+			(xy 520.7 115.57) (xy 520.7 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6383,7 +6477,7 @@
 	)
 	(wire
 		(pts
-			(xy 462.28 63.5) (xy 461.01 63.5)
+			(xy 459.74 83.82) (xy 458.47 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6533,7 +6627,7 @@
 	)
 	(wire
 		(pts
-			(xy 477.52 92.71) (xy 480.06 92.71)
+			(xy 474.98 113.03) (xy 477.52 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6550,16 +6644,6 @@
 			(type default)
 		)
 		(uuid "1e77edd8-a311-4b8d-82e5-fca6de79f335")
-	)
-	(wire
-		(pts
-			(xy 363.22 50.8) (xy 363.22 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22189bac-f515-4b4a-bd6c-bbcc3ecb7bf0")
 	)
 	(wire
 		(pts
@@ -6583,7 +6667,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 52.07) (xy 384.81 52.07)
+			(xy 351.79 52.07) (xy 381 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6593,7 +6677,7 @@
 	)
 	(wire
 		(pts
-			(xy 534.67 53.34) (xy 534.67 66.04)
+			(xy 532.13 73.66) (xy 532.13 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6603,7 +6687,7 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 93.98) (xy 480.06 92.71)
+			(xy 477.52 114.3) (xy 477.52 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6613,7 +6697,7 @@
 	)
 	(wire
 		(pts
-			(xy 427.99 86.36) (xy 453.39 86.36)
+			(xy 425.45 106.68) (xy 450.85 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6630,6 +6714,16 @@
 			(type default)
 		)
 		(uuid "262e3e2a-bc03-416d-86cf-994dad9a4997")
+	)
+	(wire
+		(pts
+			(xy 259.08 41.91) (xy 259.08 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2631dc00-15d2-4418-b2b4-819c5a84fa47")
 	)
 	(wire
 		(pts
@@ -6683,7 +6777,7 @@
 	)
 	(wire
 		(pts
-			(xy 539.75 49.53) (xy 539.75 59.69)
+			(xy 537.21 69.85) (xy 537.21 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6703,7 +6797,7 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 38.1) (xy 480.06 40.64)
+			(xy 477.52 58.42) (xy 477.52 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6733,7 +6827,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 63.5) (xy 433.07 63.5)
+			(xy 458.47 83.82) (xy 430.53 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6743,7 +6837,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 87.63) (xy 532.13 83.82)
+			(xy 529.59 107.95) (xy 529.59 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6753,7 +6847,7 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 92.71) (xy 480.06 92.71)
+			(xy 480.06 113.03) (xy 477.52 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6783,7 +6877,7 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 83.82) (xy 532.13 83.82)
+			(xy 495.3 104.14) (xy 529.59 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6793,7 +6887,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 40.64) (xy 382.27 40.64)
+			(xy 381 40.64) (xy 378.46 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7043,7 +7137,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 50.8) (xy 462.28 50.8)
+			(xy 458.47 71.12) (xy 459.74 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7083,7 +7177,7 @@
 	)
 	(wire
 		(pts
-			(xy 474.98 91.44) (xy 474.98 92.71)
+			(xy 472.44 111.76) (xy 472.44 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7103,7 +7197,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 40.64) (xy 372.11 40.64)
+			(xy 370.84 40.64) (xy 368.3 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7143,7 +7237,7 @@
 	)
 	(wire
 		(pts
-			(xy 549.91 87.63) (xy 549.91 78.74)
+			(xy 547.37 107.95) (xy 547.37 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7160,26 +7254,6 @@
 			(type default)
 		)
 		(uuid "3ed9ed64-97bb-487b-aaed-440c69abf8ed")
-	)
-	(wire
-		(pts
-			(xy 43.18 204.47) (xy 53.34 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f4145e2-1d03-4a9d-83f2-842918ebc0dd")
-	)
-	(wire
-		(pts
-			(xy 351.79 52.07) (xy 363.22 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f4784e6-50c7-46be-ad3b-ddab37e1446d")
 	)
 	(wire
 		(pts
@@ -7203,7 +7277,7 @@
 	)
 	(wire
 		(pts
-			(xy 541.02 87.63) (xy 541.02 81.28)
+			(xy 538.48 107.95) (xy 538.48 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7343,7 +7417,17 @@
 	)
 	(wire
 		(pts
-			(xy 445.77 50.8) (xy 445.77 53.34)
+			(xy 196.85 50.8) (xy 196.85 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492ff792-f8e8-41f2-a683-5bd54f5f6bba")
+	)
+	(wire
+		(pts
+			(xy 443.23 71.12) (xy 443.23 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7403,7 +7487,7 @@
 	)
 	(wire
 		(pts
-			(xy 462.28 66.04) (xy 461.01 66.04)
+			(xy 459.74 86.36) (xy 458.47 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7413,7 +7497,7 @@
 	)
 	(wire
 		(pts
-			(xy 445.77 43.18) (xy 477.52 43.18)
+			(xy 443.23 63.5) (xy 474.98 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7433,7 +7517,7 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 50.8) (xy 453.39 53.34)
+			(xy 450.85 71.12) (xy 450.85 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7463,7 +7547,7 @@
 	)
 	(wire
 		(pts
-			(xy 560.07 76.2) (xy 571.5 76.2)
+			(xy 557.53 96.52) (xy 568.96 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7473,7 +7557,7 @@
 	)
 	(wire
 		(pts
-			(xy 553.72 71.12) (xy 553.72 49.53)
+			(xy 551.18 91.44) (xy 551.18 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7513,7 +7597,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 49.53) (xy 539.75 49.53)
+			(xy 530.86 69.85) (xy 537.21 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7523,7 +7607,7 @@
 	)
 	(wire
 		(pts
-			(xy 534.67 66.04) (xy 529.59 66.04)
+			(xy 532.13 86.36) (xy 527.05 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7563,7 +7647,7 @@
 	)
 	(wire
 		(pts
-			(xy 427.99 83.82) (xy 433.07 83.82)
+			(xy 425.45 104.14) (xy 430.53 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7610,16 +7694,6 @@
 			(type default)
 		)
 		(uuid "55176a16-a438-49cc-8bff-5c88c62fa393")
-	)
-	(wire
-		(pts
-			(xy 53.34 204.47) (xy 55.88 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "564ed8e9-58bd-4d4e-a984-8d0a6c118481")
 	)
 	(wire
 		(pts
@@ -7723,7 +7797,7 @@
 	)
 	(wire
 		(pts
-			(xy 477.52 43.18) (xy 477.52 45.72)
+			(xy 474.98 63.5) (xy 474.98 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7743,7 +7817,7 @@
 	)
 	(wire
 		(pts
-			(xy 433.07 63.5) (xy 433.07 76.2)
+			(xy 430.53 83.82) (xy 430.53 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7763,7 +7837,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 49.53) (xy 520.7 49.53)
+			(xy 523.24 69.85) (xy 518.16 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7803,7 +7877,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 53.34) (xy 529.59 57.15)
+			(xy 527.05 73.66) (xy 527.05 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7813,7 +7887,7 @@
 	)
 	(wire
 		(pts
-			(xy 539.75 49.53) (xy 553.72 49.53)
+			(xy 537.21 69.85) (xy 551.18 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7823,17 +7897,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 217.17) (xy 43.18 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64da7291-0fe4-42fd-9df4-653be12ec144")
-	)
-	(wire
-		(pts
-			(xy 485.14 92.71) (xy 482.6 92.71)
+			(xy 482.6 113.03) (xy 480.06 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7863,6 +7927,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 204.47) (xy 55.88 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b93c74-51c2-46a0-b094-8a1fbc3ba366")
+	)
+	(wire
+		(pts
 			(xy 457.2 138.43) (xy 424.18 138.43)
 		)
 		(stroke
@@ -7883,7 +7957,7 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 67.31) (xy 534.67 67.31)
+			(xy 518.16 87.63) (xy 532.13 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7893,7 +7967,7 @@
 	)
 	(wire
 		(pts
-			(xy 445.77 53.34) (xy 453.39 53.34)
+			(xy 443.23 73.66) (xy 450.85 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7993,6 +8067,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 41.91) (xy 245.11 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743b488a-fabc-4b1f-af0e-2423bd47206d")
+	)
+	(wire
+		(pts
 			(xy 218.44 245.11) (xy 218.44 246.38)
 		)
 		(stroke
@@ -8023,7 +8107,7 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 57.15) (xy 445.77 57.15)
+			(xy 450.85 77.47) (xy 443.23 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8133,7 +8217,7 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 71.12) (xy 553.72 71.12)
+			(xy 495.3 91.44) (xy 551.18 91.44)
 		)
 		(stroke
 			(width 0)
@@ -8160,16 +8244,6 @@
 			(type default)
 		)
 		(uuid "79863486-a022-4e31-8ff2-eab882e1fa8b")
-	)
-	(wire
-		(pts
-			(xy 259.08 48.26) (xy 259.08 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7994231f-2baa-4b44-92ea-5557f37b5f70")
 	)
 	(wire
 		(pts
@@ -8213,6 +8287,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 41.91) (xy 196.85 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4ba25d-855c-4cf9-9c21-6f6d0a46a26b")
+	)
+	(wire
+		(pts
 			(xy 473.71 160.02) (xy 473.71 190.5)
 		)
 		(stroke
@@ -8223,7 +8307,7 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 86.36) (xy 523.24 86.36)
+			(xy 495.3 106.68) (xy 520.7 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8233,7 +8317,7 @@
 	)
 	(wire
 		(pts
-			(xy 474.98 92.71) (xy 477.52 92.71)
+			(xy 472.44 113.03) (xy 474.98 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8243,7 +8327,7 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 92.71) (xy 480.06 91.44)
+			(xy 477.52 113.03) (xy 477.52 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8283,7 +8367,7 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 87.63) (xy 523.24 86.36)
+			(xy 520.7 107.95) (xy 520.7 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8343,7 +8427,7 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 58.42) (xy 453.39 57.15)
+			(xy 450.85 78.74) (xy 450.85 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8453,7 +8537,7 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 40.64) (xy 483.87 40.64)
+			(xy 477.52 60.96) (xy 481.33 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8473,7 +8557,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 40.64) (xy 372.11 40.64)
+			(xy 361.95 40.64) (xy 368.3 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8493,7 +8577,7 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 49.53) (xy 520.7 59.69)
+			(xy 518.16 69.85) (xy 518.16 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8570,16 +8654,6 @@
 			(type default)
 		)
 		(uuid "8de58a11-b0a4-433c-a4a3-6f1e766e41a6")
-	)
-	(wire
-		(pts
-			(xy 53.34 214.63) (xy 53.34 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8de8aa2d-54c1-4fd6-ba40-b559696aeefb")
 	)
 	(wire
 		(pts
@@ -8713,7 +8787,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 40.64) (xy 365.76 40.64)
+			(xy 351.79 40.64) (xy 361.95 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8753,7 +8827,7 @@
 	)
 	(wire
 		(pts
-			(xy 541.02 96.52) (xy 549.91 96.52)
+			(xy 538.48 116.84) (xy 547.37 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8773,23 +8847,13 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 91.44) (xy 482.6 92.71)
+			(xy 480.06 111.76) (xy 480.06 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "98ee5f05-c38c-4e4d-a4e0-46f6469de9bd")
-	)
-	(wire
-		(pts
-			(xy 363.22 40.64) (xy 363.22 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "993ebae5-ffe7-4f83-b457-77da4dbdf164")
 	)
 	(wire
 		(pts
@@ -8843,7 +8907,7 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 81.28) (xy 541.02 81.28)
+			(xy 495.3 101.6) (xy 538.48 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8853,7 +8917,7 @@
 	)
 	(wire
 		(pts
-			(xy 477.52 91.44) (xy 477.52 92.71)
+			(xy 474.98 111.76) (xy 474.98 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8863,7 +8927,7 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 59.69) (xy 527.05 59.69)
+			(xy 518.16 80.01) (xy 524.51 80.01)
 		)
 		(stroke
 			(width 0)
@@ -9043,7 +9107,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 217.17) (xy 38.1 217.17)
+			(xy 46.99 217.17) (xy 38.1 217.17)
 		)
 		(stroke
 			(width 0)
@@ -9063,7 +9127,7 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 53.34) (xy 501.65 53.34)
+			(xy 495.3 73.66) (xy 499.11 73.66)
 		)
 		(stroke
 			(width 0)
@@ -9183,7 +9247,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 53.34) (xy 462.28 53.34)
+			(xy 458.47 73.66) (xy 459.74 73.66)
 		)
 		(stroke
 			(width 0)
@@ -9210,16 +9274,6 @@
 			(type default)
 		)
 		(uuid "b4b860e1-bdde-4682-8ab5-d2efa255f94a")
-	)
-	(wire
-		(pts
-			(xy 351.79 40.64) (xy 363.22 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6059a6d-b6b3-4e32-a56c-062da57d8a6d")
 	)
 	(wire
 		(pts
@@ -9303,7 +9357,7 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 76.2) (xy 560.07 76.2)
+			(xy 495.3 96.52) (xy 557.53 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9353,7 +9407,7 @@
 	)
 	(wire
 		(pts
-			(xy 433.07 83.82) (xy 453.39 83.82)
+			(xy 430.53 104.14) (xy 450.85 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9363,7 +9417,17 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 91.44) (xy 485.14 92.71)
+			(xy 285.75 41.91) (xy 285.75 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be165a5c-6578-4e26-a0df-dbe32376292d")
+	)
+	(wire
+		(pts
+			(xy 482.6 111.76) (xy 482.6 113.03)
 		)
 		(stroke
 			(width 0)
@@ -9473,7 +9537,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 50.8) (xy 384.81 52.07)
+			(xy 381 50.8) (xy 381 52.07)
 		)
 		(stroke
 			(width 0)
@@ -9533,7 +9597,7 @@
 	)
 	(wire
 		(pts
-			(xy 549.91 96.52) (xy 560.07 96.52)
+			(xy 547.37 116.84) (xy 557.53 116.84)
 		)
 		(stroke
 			(width 0)
@@ -9543,7 +9607,7 @@
 	)
 	(wire
 		(pts
-			(xy 534.67 67.31) (xy 534.67 66.04)
+			(xy 532.13 87.63) (xy 532.13 86.36)
 		)
 		(stroke
 			(width 0)
@@ -9553,23 +9617,13 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 50.8) (xy 501.65 50.8)
+			(xy 495.3 71.12) (xy 499.11 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c5d1a963-7ade-442a-b111-f1c8e0bc38ea")
-	)
-	(wire
-		(pts
-			(xy 196.85 49.53) (xy 196.85 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c60649e4-00c6-423c-95ff-8d1275d38078")
 	)
 	(wire
 		(pts
@@ -9673,7 +9727,17 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 48.26) (xy 285.75 52.07)
+			(xy 259.08 50.8) (xy 259.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca6a3e0e-ead6-4a3c-b62c-f85a473bd02d")
+	)
+	(wire
+		(pts
+			(xy 285.75 49.53) (xy 285.75 52.07)
 		)
 		(stroke
 			(width 0)
@@ -9743,7 +9807,7 @@
 	)
 	(wire
 		(pts
-			(xy 534.67 67.31) (xy 539.75 67.31)
+			(xy 532.13 87.63) (xy 537.21 87.63)
 		)
 		(stroke
 			(width 0)
@@ -9793,7 +9857,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 204.47) (xy 43.18 204.47)
+			(xy 38.1 204.47) (xy 46.99 204.47)
 		)
 		(stroke
 			(width 0)
@@ -9853,7 +9917,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 41.91) (xy 491.49 40.64)
+			(xy 488.95 62.23) (xy 488.95 60.96)
 		)
 		(stroke
 			(width 0)
@@ -9933,7 +9997,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 66.04) (xy 461.01 63.5)
+			(xy 458.47 86.36) (xy 458.47 83.82)
 		)
 		(stroke
 			(width 0)
@@ -9953,7 +10017,7 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 96.52) (xy 532.13 96.52)
+			(xy 520.7 116.84) (xy 529.59 116.84)
 		)
 		(stroke
 			(width 0)
@@ -9983,7 +10047,7 @@
 	)
 	(wire
 		(pts
-			(xy 511.81 63.5) (xy 497.84 63.5)
+			(xy 509.27 83.82) (xy 495.3 83.82)
 		)
 		(stroke
 			(width 0)
@@ -9993,7 +10057,7 @@
 	)
 	(wire
 		(pts
-			(xy 477.52 41.91) (xy 477.52 43.18)
+			(xy 474.98 62.23) (xy 474.98 63.5)
 		)
 		(stroke
 			(width 0)
@@ -10003,7 +10067,7 @@
 	)
 	(wire
 		(pts
-			(xy 560.07 76.2) (xy 560.07 87.63)
+			(xy 557.53 96.52) (xy 557.53 107.95)
 		)
 		(stroke
 			(width 0)
@@ -10023,7 +10087,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 86.36) (xy 462.28 86.36)
+			(xy 458.47 106.68) (xy 459.74 106.68)
 		)
 		(stroke
 			(width 0)
@@ -10153,7 +10217,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 43.18) (xy 384.81 40.64)
+			(xy 381 43.18) (xy 381 40.64)
 		)
 		(stroke
 			(width 0)
@@ -10213,7 +10277,7 @@
 	)
 	(wire
 		(pts
-			(xy 541.02 95.25) (xy 541.02 96.52)
+			(xy 538.48 115.57) (xy 538.48 116.84)
 		)
 		(stroke
 			(width 0)
@@ -10253,7 +10317,7 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 58.42) (xy 462.28 58.42)
+			(xy 450.85 78.74) (xy 459.74 78.74)
 		)
 		(stroke
 			(width 0)
@@ -10300,16 +10364,6 @@
 			(type default)
 		)
 		(uuid "f01e3778-8b5f-4a75-a582-ae676beb8605")
-	)
-	(wire
-		(pts
-			(xy 245.11 48.26) (xy 245.11 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f069c604-7c81-443c-8dba-ad35cba6a863")
 	)
 	(wire
 		(pts
@@ -10383,7 +10437,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 96.52) (xy 541.02 96.52)
+			(xy 529.59 116.84) (xy 538.48 116.84)
 		)
 		(stroke
 			(width 0)
@@ -10393,7 +10447,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 53.34) (xy 534.67 53.34)
+			(xy 527.05 73.66) (xy 532.13 73.66)
 		)
 		(stroke
 			(width 0)
@@ -10413,7 +10467,7 @@
 	)
 	(wire
 		(pts
-			(xy 511.81 49.53) (xy 511.81 63.5)
+			(xy 509.27 69.85) (xy 509.27 83.82)
 		)
 		(stroke
 			(width 0)
@@ -10443,7 +10497,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 62.23) (xy 529.59 66.04)
+			(xy 527.05 82.55) (xy 527.05 86.36)
 		)
 		(stroke
 			(width 0)
@@ -10533,7 +10587,7 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 30.48) (xy 480.06 29.21)
+			(xy 477.52 50.8) (xy 477.52 49.53)
 		)
 		(stroke
 			(width 0)
@@ -10543,7 +10597,7 @@
 	)
 	(wire
 		(pts
-			(xy 445.77 53.34) (xy 445.77 57.15)
+			(xy 443.23 73.66) (xy 443.23 77.47)
 		)
 		(stroke
 			(width 0)
@@ -10573,7 +10627,7 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 40.64) (xy 480.06 45.72)
+			(xy 477.52 60.96) (xy 477.52 66.04)
 		)
 		(stroke
 			(width 0)
@@ -10583,7 +10637,7 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 78.74) (xy 549.91 78.74)
+			(xy 495.3 99.06) (xy 547.37 99.06)
 		)
 		(stroke
 			(width 0)
@@ -10603,7 +10657,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 95.25) (xy 532.13 96.52)
+			(xy 529.59 115.57) (xy 529.59 116.84)
 		)
 		(stroke
 			(width 0)
@@ -10622,7 +10676,7 @@
 		(uuid "ffbe5646-cf40-42a2-938c-09b8bd18ba7f")
 	)
 	(label "D+"
-		(at 427.99 83.82 0)
+		(at 425.45 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10632,7 +10686,7 @@
 		(uuid "21aa2d7b-fd1e-4d72-8f7e-aec793130106")
 	)
 	(label "D-"
-		(at 427.99 86.36 0)
+		(at 425.45 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10652,7 +10706,7 @@
 		(uuid "306ccdfb-f8b8-468c-b867-c86dfae03758")
 	)
 	(label "VOUTL"
-		(at 501.65 50.8 0)
+		(at 499.11 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10682,7 +10736,7 @@
 		(uuid "6abfad34-8533-4a49-b422-64ab844583ab")
 	)
 	(label "VOUTR"
-		(at 501.65 53.34 0)
+		(at 499.11 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10711,7 +10765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03428ef7-7da3-4076-b0a1-6734e68024b5")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR063"
 			(at 299.72 270.51 0)
 			(effects
 				(font
@@ -10761,7 +10815,7 @@
 		(instances
 			(project "USB_DAC-AMP_V3_iPhone_dimensions"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR057")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10777,7 +10831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05b7c292-15aa-458f-8646-8bcce8a69acc")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR057"
 			(at 231.14 252.73 0)
 			(effects
 				(font
@@ -10827,7 +10881,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR055")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -10843,7 +10897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05e3e52b-7c55-4d8c-9f97-302592ce3136")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR02"
 			(at 270.51 44.45 0)
 			(effects
 				(font
@@ -10893,86 +10947,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 314.96 262.89 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0791657d-9f61-47c0-b6f9-43f4b4068fc8")
-		(property "Reference" "C41"
-			(at 318.77 261.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100u"
-			(at 318.77 264.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
-			(at 313.9948 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 314.96 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 314.96 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132558"
-			(at 314.96 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "106e8b5e-de2e-47f8-9d8a-377acb226bf8")
-		)
-		(pin "1"
-			(uuid "b9859568-e2de-48da-be37-728b37f9fc2e")
-		)
-		(instances
-			(project "USB_DAC-AMP"
-				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C41")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -10988,7 +10963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08704c20-7c1d-44c0-8242-e49baaa0c033")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR027"
 			(at 45.72 113.03 0)
 			(effects
 				(font
@@ -11038,7 +11013,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR06")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11054,7 +11029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b0ebb93-03ac-4e59-a66b-76e50e5d24a9")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 388.62 289.56 0)
 			(effects
 				(font
@@ -11097,6 +11072,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 388.62 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "bd8b01f0-bfc9-468d-a1e2-409b6da83f92")
 		)
@@ -11124,7 +11108,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U10")
+					(reference "U11")
 					(unit 2)
 				)
 			)
@@ -11132,15 +11116,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 491.49 41.91 0)
+		(at 488.95 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0b180a11-220b-4b65-a207-1f4e89952c87")
-		(property "Reference" "#PWR026"
-			(at 491.49 48.26 0)
+		(property "Reference" "#PWR018"
+			(at 488.95 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11149,7 +11133,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 495.3 44.958 0)
+			(at 492.76 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11157,7 +11141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 491.49 41.91 0)
+			(at 488.95 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11166,7 +11150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 491.49 41.91 0)
+			(at 488.95 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11175,7 +11159,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 491.49 41.91 0)
+			(at 488.95 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11189,7 +11173,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR026")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11260,6 +11244,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 481.33 248.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ce75924-39cf-4abc-8759-3f69f06fc307")
+		(property "Reference" "C38"
+			(at 480.441 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000u"
+			(at 480.441 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+			(at 485.14 247.9548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 481.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 481.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3359"
+			(at 481.33 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1470a42d-b1d2-4fa2-91cb-fd20f7e637f0")
+		)
+		(pin "2"
+			(uuid "1f9d207a-f683-4fbc-8c2a-bccfb4c6a2e5")
+		)
+		(instances
+			(project "USB_DAC-AMP_V4_credit_card"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 114.3 200.66 0)
 		(unit 1)
@@ -11269,7 +11330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ed1f82d-dbdd-4055-bb9b-f09e5ff80bc4")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR048"
 			(at 114.3 204.47 0)
 			(effects
 				(font
@@ -11319,7 +11380,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR034")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -11335,7 +11396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10aeaf50-fd44-44f2-b425-a61ff5903bda")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR03"
 			(at 290.83 44.45 0)
 			(effects
 				(font
@@ -11385,7 +11446,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR021")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -11401,7 +11462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "122f5d4c-4fcb-469f-8666-fca1fc8c3c10")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR014"
 			(at 118.11 62.23 0)
 			(effects
 				(font
@@ -11451,7 +11512,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR01")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11459,92 +11520,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 483.87 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1233d291-9821-461d-b405-5d09c27cbba3")
-		(property "Reference" "C35"
-			(at 483.87 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1000u"
-			(at 483.87 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
-			(at 487.68 159.0548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 483.87 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 483.87 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C696799"
-			(at 483.87 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3ca5ddc-5dba-4190-b9bc-8fe230c444dd")
-		)
-		(pin "2"
-			(uuid "92492143-d735-42c3-b6ba-60cf3dcd90d8")
-		)
-		(instances
-			(project "USB_DAC-AMP"
-				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 445.77 46.99 0)
+		(at 443.23 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "140fa07f-69f3-4d6e-bcda-de510e248a15")
-		(property "Reference" "C16"
-			(at 448.31 45.72 0)
+		(property "Reference" "C14"
+			(at 445.77 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11553,7 +11537,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 448.31 48.26 0)
+			(at 445.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11561,8 +11545,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 446.7352 50.8 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 444.1952 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11571,7 +11555,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 445.77 46.99 0)
+			(at 443.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11580,7 +11564,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 445.77 46.99 0)
+			(at 443.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11589,7 +11573,7 @@
 			)
 		)
 		(property "LCSC" "C1592"
-			(at 445.77 46.99 0)
+			(at 443.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11606,7 +11590,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C16")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -11622,7 +11606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14398d02-5c0b-434c-af00-7441f445280f")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR059"
 			(at 490.22 267.97 0)
 			(effects
 				(font
@@ -11672,7 +11656,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR065")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -11704,7 +11688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 278.13 42.418 90)
 			(effects
 				(font
@@ -11724,6 +11708,15 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 278.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12391"
+			(at 278.13 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11756,7 +11749,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15949647-2ecc-42a3-bb35-fb792cb1db8f")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 339.09 287.02 0)
 			(effects
 				(font
@@ -11799,6 +11792,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 339.09 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "bd8b01f0-bfc9-468d-a1e2-409b6da83f93")
 		)
@@ -11826,7 +11828,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U10")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -11841,7 +11843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1793e555-2302-49bd-bf97-bd72fd287244")
-		(property "Reference" "U9"
+		(property "Reference" "U7"
 			(at 336.296 178.816 0)
 			(effects
 				(font
@@ -11886,6 +11888,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 349.25 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "f6172646-bf84-44f4-97ca-399d7416dcf5")
 		)
@@ -11913,7 +11924,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U9")
+					(reference "U7")
 					(unit 3)
 				)
 			)
@@ -11929,7 +11940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "189f32ce-7ff5-42b9-9296-d097517d895a")
-		(property "Reference" "C28"
+		(property "Reference" "C25"
 			(at 228.6 148.59 90)
 			(effects
 				(font
@@ -11945,7 +11956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 232.41 155.2448 0)
 			(effects
 				(font
@@ -11990,7 +12001,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C28")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -11998,7 +12009,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 433.07 80.01 0)
+		(at 430.53 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12006,7 +12017,7 @@
 		(dnp no)
 		(uuid "1947ba78-1307-4c3c-9a82-27449209b6ea")
 		(property "Reference" "R16"
-			(at 434.594 78.74 0)
+			(at 432.054 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12015,7 +12026,7 @@
 			)
 		)
 		(property "Value" "1.5K"
-			(at 434.594 81.28 0)
+			(at 432.054 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12023,8 +12034,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 431.292 80.01 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 428.752 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12033,7 +12044,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 433.07 80.01 0)
+			(at 430.53 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12042,7 +12053,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 433.07 80.01 0)
+			(at 430.53 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12075,7 +12086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1986143a-fdff-4c2e-adb9-3eaa62a20883")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR042"
 			(at 359.41 185.42 0)
 			(effects
 				(font
@@ -12125,7 +12136,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR045")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -12157,7 +12168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 393.7 260.6548 0)
 			(effects
 				(font
@@ -12218,7 +12229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bdf594f-80f9-40e0-88b3-2a726e46631d")
-		(property "Reference" "R35"
+		(property "Reference" "R22"
 			(at 247.65 158.75 90)
 			(effects
 				(font
@@ -12234,7 +12245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 247.65 166.878 90)
 			(effects
 				(font
@@ -12270,7 +12281,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R35")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -12286,7 +12297,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dcd9697-4ff9-4db7-a1a4-5a2a27f0b359")
-		(property "Reference" "R29"
+		(property "Reference" "R28"
 			(at 374.65 199.39 90)
 			(effects
 				(font
@@ -12302,7 +12313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 374.65 194.818 90)
 			(effects
 				(font
@@ -12338,7 +12349,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R29")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -12354,7 +12365,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1df29d4e-b232-4373-b2a0-ae7b03610020")
-		(property "Reference" "R41"
+		(property "Reference" "R31"
 			(at 463.55 255.27 90)
 			(effects
 				(font
@@ -12370,7 +12381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 463.55 250.698 90)
 			(effects
 				(font
@@ -12406,7 +12417,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R41")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -12422,7 +12433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e664186-9ca7-4825-9a57-08471aa2f015")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR037"
 			(at 492.76 179.07 0)
 			(effects
 				(font
@@ -12472,7 +12483,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR051")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -12487,7 +12498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e8a41a4-f157-43db-8850-38e3f1b9fd42")
-		(property "Reference" "TP7"
+		(property "Reference" "TP6"
 			(at 105.664 194.056 0)
 			(effects
 				(font
@@ -12538,7 +12549,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "TP7")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -12662,6 +12673,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5184243"
+			(at 45.72 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A8"
 			(uuid "f261f1d7-7309-40e6-9356-daff73265f90")
 		)
@@ -12756,7 +12776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "234f7dd1-6e2a-4c63-8225-0a4c1a33a810")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 101.6 63.4999 90)
 			(effects
 				(font
@@ -12765,7 +12785,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0603ESDA-18N"
+		(property "Value" "D_TVS"
 			(at 101.6 66.0399 90)
 			(effects
 				(font
@@ -12774,7 +12794,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 99.06 64.77 0)
 			(effects
 				(font
@@ -12810,7 +12830,84 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "D2")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 179.07 167.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2370f1dc-e68b-4d92-8c63-6da395f59a1f")
+		(property "Reference" "C29"
+			(at 179.959 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100u"
+			(at 179.959 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 175.26 168.6052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 179.07 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3339"
+			(at 179.07 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4175f9d-05b6-4c8c-aba5-464fdfe70a19")
+		)
+		(pin "2"
+			(uuid "db89dd2d-65ed-4645-b043-7f9defae1e2e")
+		)
+		(instances
+			(project "USB_DAC-AMP_V4_credit_card"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -12826,7 +12923,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24cc4596-52bc-4633-ba3f-18f258bdc9b7")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 271.78 172.72 0)
 			(effects
 				(font
@@ -12869,6 +12966,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 271.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "7e3586c6-7e62-4d70-b76d-87f0193cfe24")
 		)
@@ -12896,7 +13002,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U5")
+					(reference "U6")
 					(unit 2)
 				)
 			)
@@ -12904,15 +13010,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 534.67 67.31 0)
+		(at 532.13 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "25f7a511-7739-4f75-91ff-085661b14aca")
-		(property "Reference" "#PWR029"
-			(at 534.67 73.66 0)
+		(property "Reference" "#PWR023"
+			(at 532.13 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12921,7 +13027,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 537.972 70.104 0)
+			(at 535.432 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12929,7 +13035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 534.67 67.31 0)
+			(at 532.13 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12938,7 +13044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 534.67 67.31 0)
+			(at 532.13 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12947,7 +13053,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 534.67 67.31 0)
+			(at 532.13 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12961,7 +13067,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR029")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -12977,7 +13083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2893d31f-0d41-4531-9af0-88ecb6decbda")
-		(property "Reference" "U9"
+		(property "Reference" "U7"
 			(at 391.16 200.66 0)
 			(effects
 				(font
@@ -13020,6 +13126,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 391.16 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "f6172646-bf84-44f4-97ca-399d7416dcf6")
 		)
@@ -13047,7 +13162,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U9")
+					(reference "U7")
 					(unit 2)
 				)
 			)
@@ -13063,7 +13178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29a17d5b-ae0f-4c0c-8c59-d52fa25bd766")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR011"
 			(at 213.36 58.42 0)
 			(effects
 				(font
@@ -13113,7 +13228,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR08")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -13129,7 +13244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a26e3ec-2052-4262-8203-df1bf8ff67e3")
-		(property "Reference" "C36"
+		(property "Reference" "C28"
 			(at 534.67 165.0999 0)
 			(effects
 				(font
@@ -13147,7 +13262,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 529.8948 162.56 0)
 			(effects
 				(font
@@ -13192,7 +13307,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C36")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -13274,7 +13389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b5a62b7-c25c-419a-82db-3c8ed760f3ba")
-		(property "Reference" "R34"
+		(property "Reference" "R32"
 			(at 193.04 248.9199 0)
 			(effects
 				(font
@@ -13292,7 +13407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 188.722 250.19 90)
 			(effects
 				(font
@@ -13328,7 +13443,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R34")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -13344,7 +13459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c1f945d-4620-4167-98ab-7554002cfee9")
-		(property "Reference" "R23"
+		(property "Reference" "R20"
 			(at 195.58 160.0199 0)
 			(effects
 				(font
@@ -13362,7 +13477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 191.262 161.29 90)
 			(effects
 				(font
@@ -13398,7 +13513,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R23")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -13414,7 +13529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e2a0f7c-c471-4418-9205-a176d81a55d2")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR052"
 			(at 114.3 236.22 0)
 			(effects
 				(font
@@ -13464,7 +13579,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR037")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -13523,6 +13638,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C9056"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ebb4d241-377c-4253-9e3e-14fe92a4eabd")
 		)
@@ -13557,7 +13681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34ee5359-70c2-40ee-81ab-0aa35ec91d07")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 163.83 57.15 0)
 			(effects
 				(font
@@ -13607,7 +13731,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -13623,7 +13747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "363b5e88-4865-4f6f-aaa5-8a3c9a173fa7")
-		(property "Reference" "C32"
+		(property "Reference" "C33"
 			(at 354.33 170.18 90)
 			(effects
 				(font
@@ -13639,7 +13763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 358.14 176.8348 0)
 			(effects
 				(font
@@ -13684,7 +13808,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C32")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -13699,7 +13823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "371d02b1-ef26-4b88-a8ec-60f8b1e769e3")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 303.53 34.29 0)
 			(effects
 				(font
@@ -13742,6 +13866,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C9056"
+			(at 303.53 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78e6648c-6f12-41c8-b3ae-c7118cf59316")
 		)
@@ -13760,7 +13893,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -13775,7 +13908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3770d22b-ea4e-45f7-a9e7-8ce00804941a")
-		(property "Reference" "R31"
+		(property "Reference" "R19"
 			(at 466.09 166.37 90)
 			(effects
 				(font
@@ -13791,7 +13924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 466.09 161.798 90)
 			(effects
 				(font
@@ -13827,7 +13960,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R31")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -13859,7 +13992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 187.96 83.058 90)
 			(effects
 				(font
@@ -13879,6 +14012,15 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12391"
+			(at 187.96 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13911,7 +14053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "396aaf05-ea24-4373-9ded-46f685035742")
-		(property "Reference" "R28"
+		(property "Reference" "R26"
 			(at 374.65 181.61 90)
 			(effects
 				(font
@@ -13927,7 +14069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 374.65 186.182 90)
 			(effects
 				(font
@@ -13963,7 +14105,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R28")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -14061,7 +14203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 502.92 161.798 90)
 			(effects
 				(font
@@ -14081,6 +14223,15 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 502.92 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12391"
+			(at 502.92 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14113,7 +14264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b36f357-9e80-49ab-9955-fc1d46eeae6f")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR040"
 			(at 255.27 182.88 0)
 			(effects
 				(font
@@ -14163,7 +14314,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR042")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -14171,7 +14322,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 196.85 44.45 0)
+		(at 196.85 45.72 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14179,8 +14330,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ed868fc-db07-47ea-987f-e3d8a6a49456")
-		(property "Reference" "C1"
-			(at 194.31 43.18 0)
+		(property "Reference" "C3"
+			(at 194.31 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14189,7 +14340,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 194.31 45.72 0)
+			(at 194.31 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14197,8 +14348,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 195.8848 48.26 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 195.8848 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14207,7 +14358,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 44.45 0)
+			(at 196.85 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14216,7 +14367,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 196.85 44.45 0)
+			(at 196.85 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14225,7 +14376,7 @@
 			)
 		)
 		(property "LCSC" "C1035"
-			(at 196.85 44.45 0)
+			(at 196.85 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14242,7 +14393,86 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C1")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 317.5 173.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fcab28b-0943-4ca6-b473-237613c8a32b")
+		(property "Reference" "C32"
+			(at 321.31 173.6089 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100u"
+			(at 321.31 176.1489 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 316.5348 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 317.5 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3339"
+			(at 317.5 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "091bde4a-187f-48b8-963c-e06cc115c854")
+		)
+		(pin "2"
+			(uuid "fca36360-ad72-414c-b5dc-49fc57f329dd")
+		)
+		(instances
+			(project "USB_DAC-AMP_V4_credit_card"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -14257,7 +14487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4142f8bb-3d9f-49b1-96c0-22f95f3f9c45")
-		(property "Reference" "TP3"
+		(property "Reference" "TP4"
 			(at 225.044 73.406 0)
 			(effects
 				(font
@@ -14308,7 +14538,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "TP3")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -14324,7 +14554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42edfc3d-54c4-403f-90e8-70399c1e98fb")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR031"
 			(at 534.67 153.67 0)
 			(effects
 				(font
@@ -14374,7 +14604,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR066")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14382,15 +14612,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 457.2 50.8 90)
+		(at 454.66 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4306c0fe-406d-4288-b4ae-dc6f14540989")
-		(property "Reference" "R20"
-			(at 458.724 48.768 90)
+		(property "Reference" "R11"
+			(at 456.184 69.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14399,7 +14629,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 459.486 50.8 90)
+			(at 456.946 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14407,8 +14637,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 457.2 52.578 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 454.66 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14417,7 +14647,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 457.2 50.8 0)
+			(at 454.66 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14426,7 +14656,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 457.2 50.8 0)
+			(at 454.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C122969"
+			(at 454.66 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14443,7 +14682,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R20")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -14459,7 +14698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43669f5a-bea8-493b-b634-4a3c6caddc8b")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 81.28 63.4999 90)
 			(effects
 				(font
@@ -14477,7 +14716,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 78.74 64.77 0)
 			(effects
 				(font
@@ -14504,6 +14743,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C316055"
+			(at 78.74 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "73fbdca7-822b-49e7-8add-922dab21b21a")
 		)
@@ -14513,7 +14761,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -14528,7 +14776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46810294-7f4a-4c15-8c2a-bc15bef9f67c")
-		(property "Reference" "U6"
+		(property "Reference" "U8"
 			(at 75.692 187.96 0)
 			(effects
 				(font
@@ -14573,6 +14821,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 83.82 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "76da29a7-8f0f-4242-a1e8-1cefce005209")
 		)
@@ -14600,7 +14857,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U6")
+					(reference "U8")
 					(unit 3)
 				)
 			)
@@ -14616,7 +14873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47da783b-cfb8-4cd2-993a-480b70ec1ecd")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 431.546 167.386 0)
 			(effects
 				(font
@@ -14659,6 +14916,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 433.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "c21b5c97-4302-4165-8de7-6fde7b3d422f")
 		)
@@ -14686,7 +14952,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U7")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -14702,7 +14968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4821192e-2bc3-4a78-b5cc-ab69ca8f2819")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR036"
 			(at 438.15 175.26 0)
 			(effects
 				(font
@@ -14752,7 +15018,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR050")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -14760,7 +15026,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 560.07 68.58 0)
+		(at 557.53 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14768,8 +15034,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4940b9ae-8779-4dc1-bfee-1a230e9e3b6d")
-		(property "Reference" "#PWR027"
-			(at 560.07 72.39 0)
+		(property "Reference" "#PWR024"
+			(at 557.53 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14778,7 +15044,7 @@
 			)
 		)
 		(property "Value" "+3.7V"
-			(at 560.07 63.5 0)
+			(at 557.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14786,7 +15052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 560.07 68.58 0)
+			(at 557.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14795,7 +15061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 560.07 68.58 0)
+			(at 557.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14804,7 +15070,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 560.07 68.58 0)
+			(at 557.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14818,7 +15084,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR027")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -14826,15 +15092,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 560.07 91.44 0)
+		(at 557.53 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "49ac89c9-54fd-405f-b24f-201b652282f8")
-		(property "Reference" "C18"
-			(at 562.61 90.17 0)
+		(property "Reference" "C23"
+			(at 560.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14843,7 +15109,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 562.61 92.71 0)
+			(at 560.07 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14851,8 +15117,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 561.0352 95.25 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 558.4952 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14861,7 +15127,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 560.07 91.44 0)
+			(at 557.53 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14870,7 +15136,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 560.07 91.44 0)
+			(at 557.53 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14879,7 +15145,7 @@
 			)
 		)
 		(property "LCSC" "C1592"
-			(at 560.07 91.44 0)
+			(at 557.53 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14896,7 +15162,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C18")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -14911,7 +15177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49f5b214-0f43-4b08-b5e0-a27cdfa566ea")
-		(property "Reference" "R25"
+		(property "Reference" "R30"
 			(at 32.258 208.28 0)
 			(effects
 				(font
@@ -14929,7 +15195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.322 210.82 90)
 			(effects
 				(font
@@ -14965,86 +15231,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 317.5 173.99 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4bb76010-3470-4ff2-92f0-add4b8dc85bb")
-		(property "Reference" "C31"
-			(at 313.69 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100u"
-			(at 313.69 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
-			(at 318.4652 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 317.5 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 317.5 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132558"
-			(at 317.5 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "719521cd-47de-4fd8-aa01-77e197aa22aa")
-		)
-		(pin "1"
-			(uuid "4a37041c-c95f-42f1-b131-8d7d1f2bda7c")
-		)
-		(instances
-			(project "USB_DAC-AMP"
-				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C31")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -15059,7 +15246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4be4f2ad-cb61-4892-9546-54cb11dfc562")
-		(property "Reference" "C10"
+		(property "Reference" "C17"
 			(at 200.66 86.36 0)
 			(effects
 				(font
@@ -15077,7 +15264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 199.0852 91.44 0)
 			(effects
 				(font
@@ -15122,7 +15309,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C10")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -15137,7 +15324,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cfcf835-44c9-4111-be18-4e76438b0b69")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 104.394 50.8 0)
 			(effects
 				(font
@@ -15155,7 +15342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.092 52.07 90)
 			(effects
 				(font
@@ -15182,6 +15369,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C122969"
+			(at 102.87 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "db454e44-1a21-4b69-b27f-b20ae4fddbc6")
 		)
@@ -15191,7 +15387,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -15207,7 +15403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d1f65b0-ecb7-4adf-bdf4-003f5e92abe1")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR01"
 			(at 189.23 44.45 0)
 			(effects
 				(font
@@ -15257,7 +15453,86 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR013")
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 351.79 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e647198-df9d-4967-9d9b-a39abc224372")
+		(property "Reference" "C7"
+			(at 355.6 44.8309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 355.6 47.3709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 352.7552 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 351.79 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3339"
+			(at 351.79 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc6f75c7-7888-44ef-99aa-0391e6cc30be")
+		)
+		(pin "2"
+			(uuid "e9586cbb-6467-4b8e-a327-4d969d5abac5")
+		)
+		(instances
+			(project "USB_DAC-AMP_V4_credit_card"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -15272,7 +15547,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51284eb6-61df-4206-b634-1ee9fb24e2f0")
-		(property "Reference" "TP5"
+		(property "Reference" "TP7"
 			(at 52.324 196.596 0)
 			(effects
 				(font
@@ -15323,7 +15598,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "TP5")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -15339,7 +15614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51a5254d-9301-4aac-8668-aa82cc8c8074")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 433.07 200.66 0)
 			(effects
 				(font
@@ -15382,6 +15657,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 433.07 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "c21b5c97-4302-4165-8de7-6fde7b3d4230")
 		)
@@ -15409,7 +15693,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U7")
+					(reference "U5")
 					(unit 2)
 				)
 			)
@@ -15417,15 +15701,15 @@
 	)
 	(symbol
 		(lib_id "Audio:PCM2902")
-		(at 480.06 68.58 0)
+		(at 477.52 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5396f76b-bb43-4c5b-a47d-c2938b46932c")
-		(property "Reference" "U1"
-			(at 488.442 91.186 0)
+		(property "Reference" "U4"
+			(at 485.902 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15434,7 +15718,7 @@
 			)
 		)
 		(property "Value" "PCM2900C"
-			(at 488.442 93.726 0)
+			(at 485.902 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15443,7 +15727,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
-			(at 480.06 68.58 0)
+			(at 477.52 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15452,7 +15736,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/pcm2902c.pdf"
-			(at 489.458 43.942 0)
+			(at 486.918 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15461,7 +15745,16 @@
 			)
 		)
 		(property "Description" "Stereo Audio Codec with USB interface, Analog Input/Output, and S/PDIF, SSOP-28"
-			(at 480.06 68.58 0)
+			(at 477.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C180425"
+			(at 477.52 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15556,7 +15849,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -15572,7 +15865,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53fb8294-6c05-4edb-9406-8498e50260a8")
-		(property "Reference" "R30"
+		(property "Reference" "R24"
 			(at 392.43 184.15 90)
 			(effects
 				(font
@@ -15588,7 +15881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 392.43 179.578 90)
 			(effects
 				(font
@@ -15615,6 +15908,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C122969"
+			(at 392.43 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4f5e9375-f3a9-4107-98d4-b06bc39d1ce0")
 		)
@@ -15624,7 +15926,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R30")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -15639,7 +15941,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55fb5b46-da88-4ba8-a785-df46c817e7aa")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 237.744 43.18 0)
 			(effects
 				(font
@@ -15657,7 +15959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 234.442 44.45 90)
 			(effects
 				(font
@@ -15693,7 +15995,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -15765,7 +16067,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 378.46 40.64 180)
+		(at 374.65 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15773,8 +16075,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "584e4dff-bc67-4d37-a01d-601d8ff239ee")
-		(property "Reference" "D3"
-			(at 380.0475 33.02 0)
+		(property "Reference" "D2"
+			(at 376.2375 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15782,15 +16084,15 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 380.0475 35.56 0)
+			(at 376.2375 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 378.46 40.64 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 374.65 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15799,7 +16101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 378.46 40.64 0)
+			(at 374.65 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15808,7 +16110,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 378.46 40.64 0)
+			(at 374.65 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15817,7 +16119,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 378.46 40.64 0)
+			(at 374.65 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15834,7 +16136,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -15866,7 +16168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 213.36 27.94 0)
 			(effects
 				(font
@@ -15886,6 +16188,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 213.36 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C223269"
+			(at 213.36 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15918,7 +16229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e21f48e-a453-4fbe-b23e-46bbd18437b6")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR034"
 			(at 193.04 158.75 0)
 			(effects
 				(font
@@ -15968,7 +16279,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR038")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15984,7 +16295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e5cc048-89bc-4513-b23b-019b40ae95b3")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR053"
 			(at 435.61 240.03 0)
 			(effects
 				(font
@@ -16034,7 +16345,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR062")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -16049,7 +16360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ef40541-1d20-49fa-b028-6e8a38005c14")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 211.836 155.702 0)
 			(effects
 				(font
@@ -16094,6 +16405,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 223.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "7e3586c6-7e62-4d70-b76d-87f0193cfe25")
 		)
@@ -16121,85 +16441,8 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U5")
+					(reference "U6")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 179.07 167.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6043176e-6cb3-447b-a783-f14be6b3b1de")
-		(property "Reference" "C25"
-			(at 179.07 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100u"
-			(at 179.07 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
-			(at 182.88 166.6748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 179.07 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132558"
-			(at 179.07 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e45a7ebc-fb54-4aef-92aa-7a73e27b44f2")
-		)
-		(pin "1"
-			(uuid "152df814-6b00-4273-aa26-9bf4a9e9a006")
-		)
-		(instances
-			(project ""
-				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C25")
-					(unit 1)
 				)
 			)
 		)
@@ -16214,7 +16457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6400c0b0-24bb-496b-bbb8-92a67ed757ec")
-		(property "Reference" "C7"
+		(property "Reference" "C1"
 			(at 144.78 44.45 0)
 			(effects
 				(font
@@ -16232,7 +16475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 146.3548 49.53 0)
 			(effects
 				(font
@@ -16277,7 +16520,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C7")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -16293,7 +16536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64f941c1-4f87-4d03-9c2f-554139e0c312")
-		(property "Reference" "U11"
+		(property "Reference" "U9"
 			(at 436.88 247.6499 0)
 			(effects
 				(font
@@ -16338,6 +16581,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 438.15 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "0db1f2bd-e56a-4aa5-9a55-9a15003c64ad")
 		)
@@ -16365,7 +16617,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U11")
+					(reference "U9")
 					(unit 3)
 				)
 			)
@@ -16381,7 +16633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65515f35-d8c5-4e15-a51d-8d4775640f24")
-		(property "Reference" "C38"
+		(property "Reference" "C37"
 			(at 226.06 237.49 90)
 			(effects
 				(font
@@ -16397,7 +16649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 229.87 244.1448 0)
 			(effects
 				(font
@@ -16442,7 +16694,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C38")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -16474,7 +16726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 372.11 283.718 90)
 			(effects
 				(font
@@ -16590,7 +16842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "688874c8-165b-430f-9f29-e7d2c44030f4")
-		(property "Reference" "R8"
+		(property "Reference" "R14"
 			(at 234.696 95.25 0)
 			(effects
 				(font
@@ -16608,7 +16860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.998 96.52 90)
 			(effects
 				(font
@@ -16644,7 +16896,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R8")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -16660,7 +16912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68c5be97-b0ff-45e5-a623-943f84865a68")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR04"
 			(at 334.01 44.45 0)
 			(effects
 				(font
@@ -16710,7 +16962,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR019")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -16725,7 +16977,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68d6f495-cebe-4049-ac8c-9076732ce30a")
-		(property "Reference" "C11"
+		(property "Reference" "C18"
 			(at 227.33 87.63 0)
 			(effects
 				(font
@@ -16743,7 +16995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 225.7552 92.71 0)
 			(effects
 				(font
@@ -16788,7 +17040,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C11")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -16804,7 +17056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69fe6990-fa53-4e11-978e-53822d134c8e")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR049"
 			(at 60.96 208.28 0)
 			(effects
 				(font
@@ -16854,7 +17106,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR036")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -16870,7 +17122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a45f5a0-6640-4a9b-b834-9a60ef70128d")
-		(property "Reference" "U11"
+		(property "Reference" "U9"
 			(at 430.53 259.08 0)
 			(effects
 				(font
@@ -16913,6 +17165,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 430.53 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "0db1f2bd-e56a-4aa5-9a55-9a15003c64ae")
 		)
@@ -16940,7 +17201,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U11")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -16956,7 +17217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ab32efa-9aae-4624-bc91-6ae96318ad4c")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR065"
 			(at 344.17 292.1 0)
 			(effects
 				(font
@@ -17006,7 +17267,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR059")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -17021,7 +17282,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b895c45-41a3-4fca-88c8-8d6c5fdeb0ce")
-		(property "Reference" "C5"
+		(property "Reference" "C13"
 			(at 92.964 63.5 0)
 			(effects
 				(font
@@ -17039,7 +17300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 91.1352 68.58 0)
 			(effects
 				(font
@@ -17084,84 +17345,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 176.53 256.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c8dee32-8358-4e05-a5d6-5f5d1575e8f4")
-		(property "Reference" "C37"
-			(at 176.53 248.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100u"
-			(at 176.53 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W"
-			(at 180.34 255.5748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 176.53 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1002"
-			(at 176.53 256.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d16902b-d3e4-4c72-ab6d-ac46e355d30b")
-		)
-		(pin "1"
-			(uuid "c7ded28a-677e-4d7a-a1da-0986194521f1")
-		)
-		(instances
-			(project "USB_DAC-AMP"
-				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C37")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -17177,7 +17361,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d214a37-912d-4d2c-806c-c2321ee65ddb")
-		(property "Reference" "U6"
+		(property "Reference" "U8"
 			(at 70.866 211.074 0)
 			(effects
 				(font
@@ -17220,6 +17404,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 76.2 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "76da29a7-8f0f-4242-a1e8-1cefce00520a")
 		)
@@ -17247,7 +17440,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U6")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -17263,7 +17456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e39efb3-168a-490c-824d-31f2719814d5")
-		(property "Reference" "R24"
+		(property "Reference" "R29"
 			(at 35.56 196.8499 0)
 			(effects
 				(font
@@ -17281,7 +17474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 39.878 198.12 90)
 			(effects
 				(font
@@ -17317,7 +17510,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R24")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -17333,7 +17526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e7699e9-c151-436f-af3f-988fc5ae25f2")
-		(property "Reference" "R40"
+		(property "Reference" "R35"
 			(at 389.89 273.05 90)
 			(effects
 				(font
@@ -17349,7 +17542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 389.89 268.478 90)
 			(effects
 				(font
@@ -17376,6 +17569,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C122969"
+			(at 389.89 266.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6984e143-0e88-4ef7-9834-b1be9b502d93")
 		)
@@ -17385,7 +17587,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R40")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -17401,7 +17603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e7cb2c5-35d6-4165-99b3-59f84072a944")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR032"
 			(at 450.85 157.48 0)
 			(effects
 				(font
@@ -17451,7 +17653,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR049")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -17467,7 +17669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72974afc-d35a-40fc-89cb-ed54baa1997e")
-		(property "Reference" "C26"
+		(property "Reference" "C34"
 			(at 88.9 184.15 90)
 			(effects
 				(font
@@ -17483,7 +17685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.71 190.8048 0)
 			(effects
 				(font
@@ -17528,7 +17730,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C26")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -17544,7 +17746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7434d9e2-2ef2-43bb-a13c-224d806012c5")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 213.36 33.02 0)
 			(effects
 				(font
@@ -17589,6 +17791,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7722"
+			(at 213.36 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "2bde1846-d4cc-479f-952f-99cc5412da71")
 		)
@@ -17607,7 +17818,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -17623,7 +17834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74aa1ef6-3698-43ec-8a81-f103930fb889")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR043"
 			(at 81.28 193.04 0)
 			(effects
 				(font
@@ -17673,7 +17884,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR032")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -17681,15 +17892,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 529.59 49.53 90)
+		(at 527.05 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "75ce2397-ecf2-4e3b-828e-b16bf752f022")
-		(property "Reference" "R22"
-			(at 531.622 45.212 90)
+		(property "Reference" "R10"
+			(at 529.082 65.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17698,7 +17909,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 530.86 47.244 90)
+			(at 528.32 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17706,8 +17917,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 529.59 51.308 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 527.05 71.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17716,7 +17927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 529.59 49.53 0)
+			(at 527.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17725,7 +17936,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 529.59 49.53 0)
+			(at 527.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17742,7 +17953,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R22")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -17758,7 +17969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7632f592-240c-4b2a-81de-d5c602e98d59")
-		(property "Reference" "U8"
+		(property "Reference" "U10"
 			(at 219.71 252.7299 0)
 			(effects
 				(font
@@ -17803,7 +18014,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7426"
 			(at 220.98 254 0)
 			(effects
 				(font
@@ -17839,7 +18050,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U8")
+					(reference "U10")
 					(unit 3)
 				)
 			)
@@ -17847,7 +18058,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 560.07 96.52 0)
+		(at 557.53 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17855,8 +18066,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7650a04a-d1af-4e10-b6d4-d1f4f3324deb")
-		(property "Reference" "#PWR028"
-			(at 560.07 102.87 0)
+		(property "Reference" "#PWR029"
+			(at 557.53 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17865,7 +18076,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 560.07 101.6 0)
+			(at 557.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17873,7 +18084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 560.07 96.52 0)
+			(at 557.53 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17882,7 +18093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 560.07 96.52 0)
+			(at 557.53 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17891,7 +18102,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 560.07 96.52 0)
+			(at 557.53 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17905,7 +18116,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -17921,7 +18132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7690857e-dbf6-41f0-8721-b2dd055e9cd7")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR012"
 			(at 303.53 58.42 0)
 			(effects
 				(font
@@ -17971,7 +18182,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR016")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -17987,7 +18198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "773f9c12-68f0-4841-9c87-0dae497cf149")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR035"
 			(at 233.68 163.83 0)
 			(effects
 				(font
@@ -18037,7 +18248,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR040")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -18045,15 +18256,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 532.13 91.44 0)
+		(at 529.59 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "781e1a36-9623-4419-b0b5-5c29901c9e5d")
-		(property "Reference" "C21"
-			(at 534.67 90.17 0)
+		(property "Reference" "C20"
+			(at 532.13 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18062,7 +18273,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 534.67 92.71 0)
+			(at 532.13 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18070,8 +18281,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 533.0952 95.25 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 530.5552 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18080,7 +18291,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 532.13 91.44 0)
+			(at 529.59 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18089,7 +18300,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 532.13 91.44 0)
+			(at 529.59 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18098,7 +18309,7 @@
 			)
 		)
 		(property "LCSC" "C1592"
-			(at 532.13 91.44 0)
+			(at 529.59 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18115,7 +18326,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C21")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -18123,7 +18334,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 480.06 93.98 0)
+		(at 477.52 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18131,8 +18342,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78a2b2bf-e31c-4303-bc5d-9ace7ec0985a")
-		(property "Reference" "#PWR02"
-			(at 480.06 100.33 0)
+		(property "Reference" "#PWR028"
+			(at 477.52 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18141,7 +18352,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 480.06 99.06 0)
+			(at 477.52 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18149,7 +18360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 480.06 93.98 0)
+			(at 477.52 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18158,7 +18369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 480.06 93.98 0)
+			(at 477.52 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18167,7 +18378,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 480.06 93.98 0)
+			(at 477.52 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18181,85 +18392,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 351.79 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a3f2648-e977-4ab6-88b0-441670ea5acf")
-		(property "Reference" "C14"
-			(at 354.33 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000u"
-			(at 354.33 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
-			(at 352.7552 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 351.79 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 351.79 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C696799"
-			(at 351.79 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "791a62c7-c36d-4909-8111-1d92c696e076")
-		)
-		(pin "2"
-			(uuid "21fc9cd7-f3e5-4021-8123-d8e19576bbba")
-		)
-		(instances
-			(project "USB_DAC-AMP"
-				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C14")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -18341,7 +18474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c568ab8-2c73-4b6b-926e-5761f370af28")
-		(property "Reference" "C39"
+		(property "Reference" "C42"
 			(at 256.54 259.0799 0)
 			(effects
 				(font
@@ -18359,7 +18492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 251.7648 256.54 0)
 			(effects
 				(font
@@ -18404,7 +18537,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C39")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -18420,7 +18553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e2fb4e7-29b8-4a28-a93b-8847473ffdbb")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR066"
 			(at 361.95 289.56 0)
 			(effects
 				(font
@@ -18470,7 +18603,7 @@
 		(instances
 			(project "USB_DAC-AMP_V3_iPhone_dimensions"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR061")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -18486,7 +18619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ee28583-42a9-449d-bda1-a3aae39ef08c")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 211.328 175.26 0)
 			(effects
 				(font
@@ -18529,6 +18662,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 215.9 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "7e3586c6-7e62-4d70-b76d-87f0193cfe26")
 		)
@@ -18556,7 +18698,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -18572,7 +18714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fad7644-6ce2-41b5-83dc-0a9405a8e4e7")
-		(property "Reference" "R26"
+		(property "Reference" "R33"
 			(at 245.11 247.65 90)
 			(effects
 				(font
@@ -18588,7 +18730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 245.11 255.778 90)
 			(effects
 				(font
@@ -18624,7 +18766,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R26")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -18640,7 +18782,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8054b569-11aa-4a0d-b4d7-249ae1a6bad3")
-		(property "Reference" "R33"
+		(property "Reference" "R23"
 			(at 497.332 167.64 0)
 			(effects
 				(font
@@ -18656,7 +18798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 494.538 166.37 90)
 			(effects
 				(font
@@ -18692,84 +18834,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 295.91 251.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "814f4f05-1f26-4fc6-8087-e4d7a966e172")
-		(property "Reference" "C40"
-			(at 295.91 243.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100u"
-			(at 295.91 246.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
-			(at 299.72 250.4948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 295.91 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 295.91 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132558"
-			(at 295.91 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f2533eac-0bf7-478b-973e-14a7c9782678")
-		)
-		(pin "1"
-			(uuid "c4538928-349c-408f-858e-99358fe2f00e")
-		)
-		(instances
-			(project "USB_DAC-AMP"
-				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C40")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -18785,7 +18850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81b7201b-2057-4240-93ab-8129f1a8fbd5")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR038"
 			(at 220.98 180.34 0)
 			(effects
 				(font
@@ -18835,7 +18900,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR041")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -18850,7 +18915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "834257e6-047c-4c60-a774-2ae3905468b5")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 427.99 150.368 0)
 			(effects
 				(font
@@ -18895,6 +18960,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 440.69 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "c21b5c97-4302-4165-8de7-6fde7b3d4231")
 		)
@@ -18922,7 +18996,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U7")
+					(reference "U5")
 					(unit 3)
 				)
 			)
@@ -18938,7 +19012,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87e8db88-cf73-45e8-825c-49e63a5b0083")
-		(property "Reference" "R43"
+		(property "Reference" "R34"
 			(at 494.792 256.54 0)
 			(effects
 				(font
@@ -18954,7 +19028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 491.998 255.27 90)
 			(effects
 				(font
@@ -18990,7 +19064,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R43")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -18998,7 +19072,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 433.07 63.5 0)
+		(at 430.53 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19007,7 +19081,7 @@
 		(fields_autoplaced yes)
 		(uuid "8811d018-0c47-4606-9559-cfef60d014e5")
 		(property "Reference" "#PWR022"
-			(at 433.07 67.31 0)
+			(at 430.53 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19016,7 +19090,7 @@
 			)
 		)
 		(property "Value" "VDDI"
-			(at 433.07 58.42 0)
+			(at 430.53 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19024,7 +19098,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 433.07 63.5 0)
+			(at 430.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19033,7 +19107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 433.07 63.5 0)
+			(at 430.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19042,7 +19116,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 433.07 63.5 0)
+			(at 430.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19064,15 +19138,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 571.5 76.2 0)
+		(at 568.96 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8aa4cc8d-6054-4281-807a-a1d675ef60df")
-		(property "Reference" "TP6"
-			(at 567.944 68.326 0)
+		(property "Reference" "TP5"
+			(at 565.404 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19081,7 +19155,7 @@
 			)
 		)
 		(property "Value" "U1_VCCI"
-			(at 567.944 70.866 0)
+			(at 565.404 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19090,7 +19164,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 576.58 76.2 0)
+			(at 574.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19099,7 +19173,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 576.58 76.2 0)
+			(at 574.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19108,7 +19182,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 571.5 76.2 0)
+			(at 568.96 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19122,7 +19196,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "TP6")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -19138,7 +19212,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b4f16da-976c-4a32-b1f2-910319553f0e")
-		(property "Reference" "R42"
+		(property "Reference" "R38"
 			(at 463.55 285.75 90)
 			(effects
 				(font
@@ -19154,7 +19228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 463.55 281.178 90)
 			(effects
 				(font
@@ -19190,7 +19264,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R42")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -19206,7 +19280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c83a7c2-db19-421c-bcfc-1f0ebd622d3b")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR025"
 			(at 213.36 99.06 0)
 			(effects
 				(font
@@ -19256,7 +19330,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR011")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -19272,7 +19346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d7f85f3-8c1e-4ab2-8fa5-fc900e47ed5f")
-		(property "Reference" "U6"
+		(property "Reference" "U8"
 			(at 76.2 243.84 0)
 			(effects
 				(font
@@ -19315,6 +19389,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 76.2 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "76da29a7-8f0f-4242-a1e8-1cefce00520b")
 		)
@@ -19342,7 +19425,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U6")
+					(reference "U8")
 					(unit 2)
 				)
 			)
@@ -19358,7 +19441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e29ba7a-0ab8-42da-ab1e-2b9c92583204")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 326.39 66.04 0)
 			(effects
 				(font
@@ -19408,42 +19491,40 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 43.18 210.82 0)
-		(mirror x)
+		(lib_id "Device:C_Polarized")
+		(at 298.45 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8ea45da3-b9de-4bb2-9f47-a0724ca2ff52")
+		(fields_autoplaced yes)
+		(uuid "8fc9463e-5f1e-4e21-b5b2-a3bbf05f4863")
 		(property "Reference" "C27"
-			(at 49.022 209.296 0)
+			(at 297.561 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "100u"
-			(at 50.8 211.582 0)
+			(at 297.561 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
-			(at 44.1452 207.01 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 302.26 161.5948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19452,7 +19533,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 210.82 0)
+			(at 298.45 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19460,8 +19541,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 43.18 210.82 0)
+		(property "Description" "Polarized capacitor"
+			(at 298.45 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19469,8 +19550,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C132558"
-			(at 43.18 210.82 0)
+		(property "LCSC" "C3339"
+			(at 298.45 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19479,13 +19560,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "5915ea6a-7b6c-4fe7-b3f1-65a0271a7fb0")
+			(uuid "4098dda6-37ba-42cf-9757-99063fec0799")
 		)
 		(pin "2"
-			(uuid "fffbccfc-0193-4961-93fa-05b41f1afede")
+			(uuid "875db0ef-e206-4cb3-bd3a-d70b7b674b94")
 		)
 		(instances
-			(project "USB_DAC-AMP"
+			(project "USB_DAC-AMP_V4_credit_card"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
 					(reference "C27")
 					(unit 1)
@@ -19503,7 +19584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91037840-2a09-48e2-a83b-6e30ff413a18")
-		(property "Reference" "U8"
+		(property "Reference" "U10"
 			(at 269.24 261.62 0)
 			(effects
 				(font
@@ -19546,7 +19627,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7426"
 			(at 269.24 251.46 0)
 			(effects
 				(font
@@ -19582,7 +19663,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U8")
+					(reference "U10")
 					(unit 2)
 				)
 			)
@@ -19614,7 +19695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 500.38 250.698 90)
 			(effects
 				(font
@@ -19641,6 +19722,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C12391"
+			(at 500.38 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c9243ca-cad0-4058-a797-8ff8edd6d199")
 		)
@@ -19658,15 +19748,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 487.68 40.64 90)
+		(at 485.14 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "940bbaca-306f-405e-8c08-34a6f79abe20")
-		(property "Reference" "C17"
-			(at 493.776 38.354 90)
+		(property "Reference" "C11"
+			(at 491.236 58.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19675,7 +19765,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 488.696 44.45 90)
+			(at 486.156 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19683,8 +19773,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 491.49 39.6748 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 488.95 59.9948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19693,7 +19783,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 487.68 40.64 0)
+			(at 485.14 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19702,7 +19792,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 487.68 40.64 0)
+			(at 485.14 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19711,7 +19801,7 @@
 			)
 		)
 		(property "LCSC" "C1592"
-			(at 487.68 40.64 90)
+			(at 485.14 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19728,7 +19818,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C17")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -19744,7 +19834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94233fb3-d18a-482c-91e2-de673d3b2a3f")
-		(property "Reference" "C33"
+		(property "Reference" "C31"
 			(at 392.43 165.1 90)
 			(effects
 				(font
@@ -19760,7 +19850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 396.24 171.7548 0)
 			(effects
 				(font
@@ -19805,7 +19895,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C33")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -19813,15 +19903,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 523.24 91.44 0)
+		(at 520.7 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "95912276-8531-475c-96c6-5322f5fd05de")
-		(property "Reference" "C22"
-			(at 525.78 90.17 0)
+		(property "Reference" "C19"
+			(at 523.24 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19830,7 +19920,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 525.78 92.71 0)
+			(at 523.24 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19838,8 +19928,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 524.2052 95.25 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 521.6652 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19848,7 +19938,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 523.24 91.44 0)
+			(at 520.7 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19857,7 +19947,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 523.24 91.44 0)
+			(at 520.7 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19866,7 +19956,7 @@
 			)
 		)
 		(property "LCSC" "C1592"
-			(at 523.24 91.44 0)
+			(at 520.7 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19883,7 +19973,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C22")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -19899,7 +19989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98911e40-6d3a-4237-8030-7a5830712e4e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR026"
 			(at 236.22 107.95 0)
 			(effects
 				(font
@@ -19949,7 +20039,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR015")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -19957,15 +20047,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 245.11 44.45 0)
+		(at 245.11 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "98a9fdc5-d0e8-4525-86e4-c6ade839068e")
-		(property "Reference" "C6"
-			(at 247.65 43.18 0)
+		(property "Reference" "C4"
+			(at 247.65 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19974,7 +20064,7 @@
 			)
 		)
 		(property "Value" "30p"
-			(at 247.65 45.72 0)
+			(at 247.65 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19982,8 +20072,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 246.0752 48.26 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 246.0752 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19992,7 +20082,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 44.45 0)
+			(at 245.11 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20001,7 +20091,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 245.11 44.45 0)
+			(at 245.11 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20010,7 +20100,7 @@
 			)
 		)
 		(property "LCSC" " C1658"
-			(at 245.11 44.45 0)
+			(at 245.11 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20027,84 +20117,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 298.45 162.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a4552c8-0799-4caa-9dc8-38e2ef37accd")
-		(property "Reference" "C30"
-			(at 298.45 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100u"
-			(at 298.45 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
-			(at 302.26 161.5948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 298.45 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 298.45 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132558"
-			(at 298.45 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0013059c-8863-4253-8468-888aba11932a")
-		)
-		(pin "1"
-			(uuid "ccdcd0b6-8abc-4c80-bd5d-b4d5d410c321")
-		)
-		(instances
-			(project "USB_DAC-AMP"
-				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C30")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -20184,7 +20197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b989361-5c51-44a0-a7ef-e3986ca6c2f0")
-		(property "Reference" "R27"
+		(property "Reference" "R25"
 			(at 304.8 181.6099 0)
 			(effects
 				(font
@@ -20202,7 +20215,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 304.038 182.88 90)
 			(effects
 				(font
@@ -20238,85 +20251,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 363.22 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9bc9914d-6e7e-43d3-849d-7b973021b50b")
-		(property "Reference" "C15"
-			(at 365.76 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000u"
-			(at 365.76 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
-			(at 364.1852 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 363.22 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 363.22 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C696799"
-			(at 363.22 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5b0ba68-b594-4471-8285-8f0be079311b")
-		)
-		(pin "2"
-			(uuid "4201bbd0-eaf8-462e-a32a-1e235238e283")
-		)
-		(instances
-			(project "USB_DAC-AMP"
-				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C15")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -20331,7 +20266,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c9ec77b-3fff-4160-9cf1-1936c013b815")
-		(property "Reference" "C13"
+		(property "Reference" "C8"
 			(at 316.23 46.99 0)
 			(effects
 				(font
@@ -20349,7 +20284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 314.6552 52.07 0)
 			(effects
 				(font
@@ -20394,7 +20329,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C13")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -20410,7 +20345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cfa006c-fd3e-42b3-98e0-ffa65bdc7b44")
-		(property "Reference" "R38"
+		(property "Reference" "R37"
 			(at 372.11 270.51 90)
 			(effects
 				(font
@@ -20426,7 +20361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 372.11 275.082 90)
 			(effects
 				(font
@@ -20462,7 +20397,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R38")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -20478,7 +20413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ddc30a9-3983-4564-a44d-b3acbfcff3d2")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 228.9175 34.29 0)
 			(effects
 				(font
@@ -20521,6 +20456,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2480"
+			(at 228.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fa0ae6ab-10e0-4323-981c-8c0e139e8ea8")
 		)
@@ -20530,7 +20474,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -20546,7 +20490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e3264c8-c38e-43b9-b92f-825e8c0cda1c")
-		(property "Reference" "C34"
+		(property "Reference" "C24"
 			(at 445.77 142.24 90)
 			(effects
 				(font
@@ -20562,7 +20506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 449.58 148.8948 0)
 			(effects
 				(font
@@ -20607,7 +20551,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C34")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -20615,15 +20559,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 259.08 44.45 0)
+		(at 259.08 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a0cdff6c-b1db-439a-a1e0-4d069382417d")
-		(property "Reference" "C9"
-			(at 261.62 43.18 0)
+		(property "Reference" "C5"
+			(at 261.62 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20632,7 +20576,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 261.62 45.72 0)
+			(at 261.62 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20640,8 +20584,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 260.0452 48.26 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 260.0452 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20650,7 +20594,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 44.45 0)
+			(at 259.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20659,7 +20603,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 259.08 44.45 0)
+			(at 259.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20668,7 +20612,7 @@
 			)
 		)
 		(property "LCSC" "C1035"
-			(at 259.08 44.45 0)
+			(at 259.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20685,7 +20629,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C9")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -20693,7 +20637,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 49.53 0)
+		(at 259.08 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20702,7 +20646,7 @@
 		(fields_autoplaced yes)
 		(uuid "a11979b9-ffae-4c24-8f66-7f202e54079f")
 		(property "Reference" "#PWR010"
-			(at 259.08 55.88 0)
+			(at 259.08 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20711,7 +20655,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 54.61 0)
+			(at 259.08 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20719,7 +20663,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 49.53 0)
+			(at 259.08 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20728,7 +20672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 49.53 0)
+			(at 259.08 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20737,7 +20681,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 49.53 0)
+			(at 259.08 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20767,7 +20711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1ba2d08-68f2-450e-a106-37d7aa37d267")
-		(property "Reference" "C44"
+		(property "Reference" "C36"
 			(at 443.23 231.14 90)
 			(effects
 				(font
@@ -20783,7 +20727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 447.04 237.7948 0)
 			(effects
 				(font
@@ -20828,7 +20772,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C44")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -20843,7 +20787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a315b09e-4b77-4dba-801d-cc1eb06afcdb")
-		(property "Reference" "R7"
+		(property "Reference" "R13"
 			(at 237.744 83.82 0)
 			(effects
 				(font
@@ -20861,7 +20805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 234.442 85.09 90)
 			(effects
 				(font
@@ -20897,7 +20841,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R7")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -20979,7 +20923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a654639c-8675-4729-b986-c1bbbccb418c")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR030"
 			(at 438.15 151.13 0)
 			(effects
 				(font
@@ -21029,7 +20973,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR048")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -21044,7 +20988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7e829ed-af5d-4cf7-9a54-e33da11bd071")
-		(property "Reference" "C2"
+		(property "Reference" "C10"
 			(at 114.046 50.8 0)
 			(effects
 				(font
@@ -21062,7 +21006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 112.7252 55.88 0)
 			(effects
 				(font
@@ -21107,7 +21051,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C2")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -21115,15 +21059,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 549.91 91.44 0)
+		(at 547.37 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a9350789-60f6-41db-aeb5-3042d46cad1c")
-		(property "Reference" "C19"
-			(at 552.45 90.17 0)
+		(property "Reference" "C22"
+			(at 549.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21132,7 +21076,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 552.45 92.71 0)
+			(at 549.91 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21140,8 +21084,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 550.8752 95.25 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 548.3352 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21150,7 +21094,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 549.91 91.44 0)
+			(at 547.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21159,7 +21103,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 549.91 91.44 0)
+			(at 547.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21168,7 +21112,7 @@
 			)
 		)
 		(property "LCSC" "C1035"
-			(at 549.91 91.44 0)
+			(at 547.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21185,7 +21129,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C19")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -21369,7 +21313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acecd220-8fe1-4828-992e-b824e733ce6e")
-		(property "Reference" "C46"
+		(property "Reference" "C40"
 			(at 532.13 253.9999 0)
 			(effects
 				(font
@@ -21387,7 +21331,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 527.3548 251.46 0)
 			(effects
 				(font
@@ -21432,7 +21376,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C46")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -21448,7 +21392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae40b239-c4b4-4718-bd4e-9155ce92e119")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR054"
 			(at 448.31 246.38 0)
 			(effects
 				(font
@@ -21498,7 +21442,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR064")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -21513,7 +21457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af389c27-ee4e-4d48-9a19-03b0ad5cd3d7")
-		(property "Reference" "R12"
+		(property "Reference" "R1"
 			(at 346.202 36.322 90)
 			(effects
 				(font
@@ -21531,7 +21475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 344.17 42.418 90)
 			(effects
 				(font
@@ -21567,7 +21511,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R12")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -21601,7 +21545,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 513.08 166.37 0)
 			(effects
 				(font
@@ -21628,6 +21572,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C316055"
+			(at 513.08 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e3b05f60-6e01-4113-bc7a-c571ab271e28")
 		)
@@ -21644,33 +21597,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 481.33 248.92 90)
+		(lib_id "Device:C_Polarized")
+		(at 295.91 251.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b06fca54-b336-40cb-81ad-152df155bd18")
-		(property "Reference" "C45"
-			(at 481.33 241.3 90)
+		(uuid "b2b7d0e6-14ce-4be4-8e58-927cf18e138b")
+		(property "Reference" "C39"
+			(at 295.021 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1000u"
-			(at 481.33 243.84 90)
+		(property "Value" "100u"
+			(at 295.021 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
-			(at 485.14 247.9548 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 299.72 250.4948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21679,7 +21632,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 481.33 248.92 0)
+			(at 295.91 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21687,8 +21640,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 481.33 248.92 0)
+		(property "Description" "Polarized capacitor"
+			(at 295.91 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21696,87 +21649,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C696799"
-			(at 481.33 248.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8ca3dfd-d116-4e4e-9417-f601bd8d2e32")
-		)
-		(pin "2"
-			(uuid "a3d37658-63f0-44e0-930e-89ae95087d60")
-		)
-		(instances
-			(project "USB_DAC-AMP"
-				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 53.34 210.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0bdcdf0-5013-4b8f-847d-c1efded778db")
-		(property "Reference" "C47"
-			(at 57.15 209.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 57.15 212.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 52.3748 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 53.34 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1590"
-			(at 53.34 210.82 0)
+		(property "LCSC" "C3339"
+			(at 295.91 251.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21785,15 +21659,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "40f88878-ef5b-441f-8207-297340b94ee1")
+			(uuid "6eed8942-531d-4dbd-bde1-93cd5ea028bb")
 		)
 		(pin "2"
-			(uuid "983a3b65-6272-484a-ad5a-b500b5f52ccc")
+			(uuid "42d9c7b7-279e-4b0a-971c-fda9b09c5f09")
 		)
 		(instances
-			(project "USB_DAC-AMP_V2_different_layout"
+			(project "USB_DAC-AMP_V4_credit_card"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C47")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -21809,7 +21683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b31bc804-e6ba-481a-ac77-9821489624db")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR044"
 			(at 38.1 195.58 0)
 			(effects
 				(font
@@ -21859,7 +21733,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR030")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -21867,15 +21741,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 477.52 41.91 0)
+		(at 474.98 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b376bd30-2e85-4c01-b639-5da37ddef42c")
-		(property "Reference" "#PWR023"
-			(at 477.52 45.72 0)
+		(property "Reference" "#PWR017"
+			(at 474.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21884,7 +21758,7 @@
 			)
 		)
 		(property "Value" "VDDI"
-			(at 474.218 39.37 0)
+			(at 471.678 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21892,7 +21766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 477.52 41.91 0)
+			(at 474.98 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21901,7 +21775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 477.52 41.91 0)
+			(at 474.98 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21910,7 +21784,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 477.52 41.91 0)
+			(at 474.98 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21924,7 +21798,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR023")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -21940,7 +21814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b37b37f8-1cdb-449a-9cf5-079de52c189c")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR061"
 			(at 344.17 267.97 0)
 			(effects
 				(font
@@ -21990,7 +21864,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR058")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -22006,7 +21880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b75b21a9-2062-435e-8f66-38fb88342d84")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 147.32 57.15 0)
 			(effects
 				(font
@@ -22056,7 +21930,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -22064,7 +21938,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 445.77 57.15 0)
+		(at 443.23 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22072,8 +21946,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7ac1494-6fec-47f4-861d-d8da6e88a250")
-		(property "Reference" "#PWR024"
-			(at 445.77 63.5 0)
+		(property "Reference" "#PWR020"
+			(at 443.23 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22082,7 +21956,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 445.77 62.23 0)
+			(at 443.23 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22090,7 +21964,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 445.77 57.15 0)
+			(at 443.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22099,7 +21973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 445.77 57.15 0)
+			(at 443.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22108,7 +21982,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 445.77 57.15 0)
+			(at 443.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22122,7 +21996,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR024")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -22138,7 +22012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b88229e4-6df7-4b9b-8689-61c6c8ce7f1d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR021"
 			(at 234.95 85.09 0)
 			(effects
 				(font
@@ -22188,7 +22062,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR012")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -22196,15 +22070,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 539.75 63.5 0)
+		(at 537.21 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b8a81bfe-84dc-4bdf-8833-fdd33fed32ee")
-		(property "Reference" "C23"
-			(at 542.29 62.23 0)
+		(property "Reference" "C16"
+			(at 539.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22213,7 +22087,7 @@
 			)
 		)
 		(property "Value" "30p"
-			(at 542.29 64.77 0)
+			(at 539.75 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22221,8 +22095,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 540.7152 67.31 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 538.1752 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22231,7 +22105,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 539.75 63.5 0)
+			(at 537.21 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22240,7 +22114,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 539.75 63.5 0)
+			(at 537.21 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22249,7 +22123,7 @@
 			)
 		)
 		(property "LCSC" " C1658"
-			(at 539.75 63.5 0)
+			(at 537.21 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22266,7 +22140,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C23")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -22274,15 +22148,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 480.06 34.29 0)
+		(at 477.52 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b9834880-5dd8-4a30-8c6a-ebc9d6829241")
-		(property "Reference" "R17"
-			(at 485.267 33.147 0)
+		(property "Reference" "R9"
+			(at 482.727 53.467 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22291,7 +22165,7 @@
 			)
 		)
 		(property "Value" "1"
-			(at 484.505 35.179 0)
+			(at 481.965 55.499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22299,8 +22173,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 478.282 34.29 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 475.742 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22309,7 +22183,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 480.06 34.29 0)
+			(at 477.52 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22318,7 +22192,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 480.06 34.29 0)
+			(at 477.52 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22335,7 +22209,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R17")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -22343,7 +22217,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS14")
-		(at 560.07 72.39 90)
+		(at 557.53 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22352,7 +22226,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc065a44-ca21-4f9a-9719-2ff9cf2a63f8")
 		(property "Reference" "D5"
-			(at 562.61 71.4374 90)
+			(at 560.07 91.7574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22361,7 +22235,7 @@
 			)
 		)
 		(property "Value" "SS14"
-			(at 562.61 73.9774 90)
+			(at 560.07 94.2974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22370,7 +22244,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 564.515 72.39 0)
+			(at 561.975 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22379,7 +22253,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 560.07 72.39 0)
+			(at 557.53 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22388,7 +22262,16 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 560.07 72.39 0)
+			(at 557.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2480"
+			(at 557.53 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22413,15 +22296,15 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24_Small")
-		(at 529.59 59.69 0)
+		(at 527.05 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bca542be-9c6e-47dd-a4b8-1682fd0fc934")
-		(property "Reference" "Y3"
-			(at 540.766 44.958 0)
+		(property "Reference" "Y1"
+			(at 538.226 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22429,7 +22312,7 @@
 			)
 		)
 		(property "Value" "12 MHz Crystal"
-			(at 546.862 47.244 0)
+			(at 544.322 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22437,7 +22320,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-			(at 529.59 59.69 0)
+			(at 527.05 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22446,7 +22329,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588879072109322240"
-			(at 529.59 59.69 0)
+			(at 527.05 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22455,7 +22338,16 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
-			(at 529.59 59.69 0)
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C9002"
+			(at 527.05 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22478,7 +22370,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "Y3")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -22494,7 +22386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beafe623-aef5-4ca4-ab2a-6b75d8611239")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR051"
 			(at 38.1 227.33 0)
 			(effects
 				(font
@@ -22544,7 +22436,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR031")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -22560,7 +22452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c10287b3-156a-48ff-86c3-7acdee6491ad")
-		(property "Reference" "R3"
+		(property "Reference" "R21"
 			(at 317.5 156.21 0)
 			(effects
 				(font
@@ -22735,7 +22627,7 @@
 		(instances
 			(project "USB_DAC-AMP_V3_iPhone_dimensions"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R3")
+					(reference "R21")
 					(unit 2)
 				)
 			)
@@ -22743,7 +22635,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 457.2 53.34 90)
+		(at 454.66 73.66 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22751,8 +22643,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c10b49c6-5afe-4917-b9ad-b3df46695909")
-		(property "Reference" "R21"
-			(at 458.724 55.372 90)
+		(property "Reference" "R12"
+			(at 456.184 75.692 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22761,7 +22653,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 459.486 53.34 90)
+			(at 456.946 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22769,8 +22661,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 457.2 51.562 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 454.66 71.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22779,7 +22671,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 457.2 53.34 0)
+			(at 454.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22788,7 +22680,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 457.2 53.34 0)
+			(at 454.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C122969"
+			(at 454.66 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22805,7 +22706,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R21")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -22820,7 +22721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5aa48ba-e97a-416b-bc66-58682588a71e")
-		(property "Reference" "C8"
+		(property "Reference" "C2"
 			(at 166.37 44.45 0)
 			(effects
 				(font
@@ -22838,7 +22739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 164.7952 49.53 0)
 			(effects
 				(font
@@ -22883,7 +22784,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C8")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -22898,7 +22799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6b617e2-160f-4ad1-ad3d-f38e328d7247")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 237.744 53.34 0)
 			(effects
 				(font
@@ -22916,7 +22817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 234.442 54.61 90)
 			(effects
 				(font
@@ -22952,7 +22853,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -22968,7 +22869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c71794b1-6a53-4e3d-9687-cf2b37cc1b97")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR015"
 			(at 236.22 66.04 0)
 			(effects
 				(font
@@ -23018,7 +22919,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR09")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -23026,15 +22927,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 285.75 44.45 0)
+		(at 285.75 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c72b2682-5021-47b8-b42f-6ccc28876359")
-		(property "Reference" "C12"
-			(at 288.29 43.18 0)
+		(property "Reference" "C6"
+			(at 288.29 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23043,7 +22944,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 288.29 45.72 0)
+			(at 288.29 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23051,8 +22952,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 286.7152 48.26 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 286.7152 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23061,7 +22962,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 285.75 44.45 0)
+			(at 285.75 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23070,7 +22971,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 285.75 44.45 0)
+			(at 285.75 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23079,7 +22980,7 @@
 			)
 		)
 		(property "LCSC" "C1035"
-			(at 285.75 44.45 0)
+			(at 285.75 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23096,7 +22997,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C12")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -23112,7 +23013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7faf045-c009-4834-a666-4aba88e9fbca")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR019"
 			(at 88.9 76.2 0)
 			(effects
 				(font
@@ -23162,7 +23063,161 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR03")
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 176.53 256.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8395d92-dc2e-4cbf-8bf0-9102c7198198")
+		(property "Reference" "C41"
+			(at 177.419 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100u"
+			(at 177.419 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 172.72 257.5052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 176.53 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3339"
+			(at 176.53 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfafc5fb-a1bf-41ac-ab80-9df15b71f1ac")
+		)
+		(pin "2"
+			(uuid "aa357263-9a53-4453-8a9b-68d42010deb7")
+		)
+		(instances
+			(project "USB_DAC-AMP_V4_credit_card"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 483.87 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c95255e8-a1f3-4d51-840c-1ac4ff39c1ce")
+		(property "Reference" "C26"
+			(at 482.981 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000u"
+			(at 482.981 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+			(at 487.68 159.0548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 483.87 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 483.87 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3359"
+			(at 483.87 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7be681c5-a5e9-4e6e-9fc7-a98f65553686")
+		)
+		(pin "2"
+			(uuid "611a3815-3a71-456f-865a-15ae015840f3")
+		)
+		(instances
+			(project "USB_DAC-AMP_V4_credit_card"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -23178,7 +23233,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca417cf2-16d1-42ed-96a1-4f6ba2fa82fd")
-		(property "Reference" "U11"
+		(property "Reference" "U9"
 			(at 430.53 289.56 0)
 			(effects
 				(font
@@ -23221,6 +23276,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 430.53 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "0db1f2bd-e56a-4aa5-9a55-9a15003c64af")
 		)
@@ -23248,7 +23312,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U11")
+					(reference "U9")
 					(unit 2)
 				)
 			)
@@ -23280,7 +23344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 156.21 42.418 90)
 			(effects
 				(font
@@ -23300,6 +23364,15 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 156.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12391"
+			(at 156.21 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23348,7 +23421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 90.17 39.37 0)
 			(effects
 				(font
@@ -23369,6 +23442,15 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 85.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20787"
+			(at 85.09 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23401,7 +23483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc2e28dc-6443-4e64-96e0-e13f26b62259")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR033"
 			(at 220.98 157.48 0)
 			(effects
 				(font
@@ -23451,7 +23533,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR039")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -23459,15 +23541,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 541.02 91.44 0)
+		(at 538.48 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cd683856-879c-4127-a089-0a38265d6a37")
-		(property "Reference" "C20"
-			(at 543.56 90.17 0)
+		(property "Reference" "C21"
+			(at 541.02 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23476,7 +23558,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 543.56 92.71 0)
+			(at 541.02 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23484,8 +23566,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 541.9852 95.25 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 539.4452 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23494,7 +23576,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 541.02 91.44 0)
+			(at 538.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23503,7 +23585,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 541.02 91.44 0)
+			(at 538.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23512,7 +23594,7 @@
 			)
 		)
 		(property "LCSC" "C1592"
-			(at 541.02 91.44 0)
+			(at 538.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23529,7 +23611,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -23545,7 +23627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfc63f50-2724-4137-9895-00070c303c17")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR039"
 			(at 346.71 179.07 0)
 			(effects
 				(font
@@ -23595,7 +23677,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR044")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -23611,7 +23693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfe64d0c-cb99-40d5-aa26-1536b61cdd21")
-		(property "Reference" "U9"
+		(property "Reference" "U7"
 			(at 341.63 198.12 0)
 			(effects
 				(font
@@ -23654,6 +23736,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 341.63 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "f6172646-bf84-44f4-97ca-399d7416dcf7")
 		)
@@ -23681,7 +23772,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U9")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -23689,7 +23780,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 372.11 40.64 0)
+		(at 368.3 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23697,8 +23788,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1175bbf-f489-470b-ad98-3bda80c149a5")
-		(property "Reference" "#PWR020"
-			(at 372.11 44.45 0)
+		(property "Reference" "#PWR05"
+			(at 368.3 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23707,7 +23798,7 @@
 			)
 		)
 		(property "Value" "+15VA"
-			(at 372.11 35.56 0)
+			(at 368.3 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23715,7 +23806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 372.11 40.64 0)
+			(at 368.3 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23724,7 +23815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 40.64 0)
+			(at 368.3 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23733,7 +23824,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 372.11 40.64 0)
+			(at 368.3 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23747,7 +23838,86 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR020")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 314.96 262.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1642e39-d4b5-47ca-9e18-41eaef4ee771")
+		(property "Reference" "C44"
+			(at 318.77 262.5089 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100u"
+			(at 318.77 265.0489 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 313.9948 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 314.96 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3339"
+			(at 314.96 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ed21870-03af-4cca-bc7a-c183be15bea8")
+		)
+		(pin "2"
+			(uuid "f67c904b-b5d5-4cbe-a4ef-445e674f6688")
+		)
+		(instances
+			(project ""
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -23763,7 +23933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1f8e10f-34bf-4af5-a7d9-04a8cde8ae4a")
-		(property "Reference" "U8"
+		(property "Reference" "U10"
 			(at 213.36 264.16 0)
 			(effects
 				(font
@@ -23806,7 +23976,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7426"
 			(at 213.36 254 0)
 			(effects
 				(font
@@ -23842,7 +24012,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U8")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -23858,7 +24028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d273338d-a27e-4942-8d50-18274e4e1aed")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR050"
 			(at 81.28 215.9 0)
 			(effects
 				(font
@@ -23908,7 +24078,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR035")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -23923,7 +24093,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2d8e33f-99fc-4da9-a3fa-55d7e7694a78")
-		(property "Reference" "C4"
+		(property "Reference" "C12"
 			(at 72.898 63.5 0)
 			(effects
 				(font
@@ -23941,7 +24111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 70.8152 68.58 0)
 			(effects
 				(font
@@ -23986,7 +24156,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C4")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -24002,7 +24172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6b6a965-b6b2-4340-bcd7-db5e2fb343f8")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR055"
 			(at 218.44 246.38 0)
 			(effects
 				(font
@@ -24052,7 +24222,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR053")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -24060,15 +24230,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 384.81 46.99 0)
+		(at 381 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d75c5f9d-9dad-46b8-8e4d-4f39e03594c1")
-		(property "Reference" "R13"
-			(at 386.334 45.72 0)
+		(property "Reference" "R4"
+			(at 382.524 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24077,7 +24247,7 @@
 			)
 		)
 		(property "Value" "1.5K"
-			(at 386.334 48.26 0)
+			(at 382.524 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24085,8 +24255,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 383.032 46.99 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 379.222 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24095,7 +24265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 384.81 46.99 0)
+			(at 381 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24104,7 +24274,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 384.81 46.99 0)
+			(at 381 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24121,7 +24291,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R13")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -24137,7 +24307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d81259c9-bba0-4167-95a5-b3273c4c6b58")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR064"
 			(at 356.87 274.32 0)
 			(effects
 				(font
@@ -24187,7 +24357,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR060")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -24203,7 +24373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dad2e3d8-701d-428a-94e1-93fbd89df3aa")
-		(property "Reference" "C29"
+		(property "Reference" "C30"
 			(at 259.08 170.1799 0)
 			(effects
 				(font
@@ -24221,7 +24391,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 254.3048 167.64 0)
 			(effects
 				(font
@@ -24266,7 +24436,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C29")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -24281,7 +24451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcb424a6-3ce8-4551-b255-8f756e309f70")
-		(property "Reference" "R9"
+		(property "Reference" "R15"
 			(at 242.824 95.25 0)
 			(effects
 				(font
@@ -24299,7 +24469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 239.522 96.52 90)
 			(effects
 				(font
@@ -24335,7 +24505,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R9")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -24350,7 +24520,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dccea433-8648-4216-8023-cc8eb5e41a13")
-		(property "Reference" "R1"
+		(property "Reference" "R5"
 			(at 123.444 48.26 0)
 			(effects
 				(font
@@ -24368,7 +24538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 120.142 49.53 90)
 			(effects
 				(font
@@ -24395,6 +24565,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C122969"
+			(at 121.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7d399b21-cadd-4670-93d2-de054e589ce5")
 		)
@@ -24404,7 +24583,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -24419,7 +24598,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd7774c5-1c62-46b3-ae45-a72badb63776")
-		(property "Reference" "R10"
+		(property "Reference" "R3"
 			(at 327.914 43.18 0)
 			(effects
 				(font
@@ -24437,7 +24616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 324.612 44.45 90)
 			(effects
 				(font
@@ -24473,7 +24652,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R10")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -24488,7 +24667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e29c97e5-1ff6-4793-9d8b-4d857a56f2f7")
-		(property "Reference" "R11"
+		(property "Reference" "R8"
 			(at 327.914 53.34 0)
 			(effects
 				(font
@@ -24506,7 +24685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 324.612 54.61 90)
 			(effects
 				(font
@@ -24542,7 +24721,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R11")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -24558,7 +24737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3e9435c-edea-494f-9b99-f725cd3b506e")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR013"
 			(at 351.79 59.69 0)
 			(effects
 				(font
@@ -24608,7 +24787,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR018")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -24642,7 +24821,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 510.54 255.27 0)
 			(effects
 				(font
@@ -24669,6 +24848,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C316055"
+			(at 510.54 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f5a7606a-dc41-475c-8140-70d41d99d366")
 		)
@@ -24685,6 +24873,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 46.99 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea1c7b6b-e64b-4d87-be0b-93d3d28597b8")
+		(property "Reference" "C35"
+			(at 50.8 208.6609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 50.8 211.2009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 47.9552 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 46.99 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3339"
+			(at 46.99 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3764b9f4-cb11-4307-ad29-1a7c9690bbbe")
+		)
+		(pin "2"
+			(uuid "d92e1ad2-906a-47b1-a053-3bb593298e4d")
+		)
+		(instances
+			(project "USB_DAC-AMP_V4_credit_card"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PTN092-H20115K1A:PTN092-H20115K1A")
 		(at 314.96 251.46 0)
 		(unit 1)
@@ -24694,7 +24961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea94aab7-691a-4f08-9b2f-b94d940e1a57")
-		(property "Reference" "R3"
+		(property "Reference" "R21"
 			(at 314.96 245.11 0)
 			(effects
 				(font
@@ -24869,7 +25136,7 @@
 		(instances
 			(project "USB_DAC-AMP_V3_iPhone_dimensions"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R3")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -24885,7 +25152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed212f39-0308-4ef8-952c-defffb1ed4bf")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR058"
 			(at 435.61 264.16 0)
 			(effects
 				(font
@@ -24935,7 +25202,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR063")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -24943,7 +25210,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 49.53 0)
+		(at 196.85 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24951,8 +25218,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed2eb8e7-1f78-414c-b528-ac6119126758")
-		(property "Reference" "#PWR07"
-			(at 196.85 55.88 0)
+		(property "Reference" "#PWR09"
+			(at 196.85 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24961,7 +25228,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 54.61 0)
+			(at 196.85 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24969,7 +25236,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 49.53 0)
+			(at 196.85 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24978,7 +25245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 49.53 0)
+			(at 196.85 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24987,7 +25254,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 49.53 0)
+			(at 196.85 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25001,7 +25268,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -25017,7 +25284,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee3b33c8-60ec-4353-ac75-ab4864a805a2")
-		(property "Reference" "R32"
+		(property "Reference" "R27"
 			(at 466.09 196.85 90)
 			(effects
 				(font
@@ -25033,7 +25300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 466.09 192.278 90)
 			(effects
 				(font
@@ -25069,7 +25336,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R32")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -25077,15 +25344,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 365.76 40.64 0)
+		(at 361.95 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "efa101d7-d61c-458e-931c-32ef5bda9e72")
-		(property "Reference" "TP4"
-			(at 362.204 32.766 0)
+		(property "Reference" "TP3"
+			(at 358.394 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25094,7 +25361,7 @@
 			)
 		)
 		(property "Value" "+15VA"
-			(at 362.204 35.306 0)
+			(at 358.394 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25103,7 +25370,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 370.84 40.64 0)
+			(at 367.03 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25112,7 +25379,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 370.84 40.64 0)
+			(at 367.03 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25121,7 +25388,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 365.76 40.64 0)
+			(at 361.95 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25135,7 +25402,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -25151,7 +25418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f030abee-4c15-47e4-b75d-59eb53a2dbf3")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR060"
 			(at 218.44 269.24 0)
 			(effects
 				(font
@@ -25201,7 +25468,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR054")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -25209,7 +25476,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 457.2 86.36 90)
+		(at 454.66 106.68 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25217,8 +25484,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f078781e-c69b-4336-be8c-c9682751072a")
-		(property "Reference" "R15"
-			(at 459.232 90.678 90)
+		(property "Reference" "R18"
+			(at 456.692 110.998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25227,7 +25494,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 458.47 88.646 90)
+			(at 455.93 108.966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25235,8 +25502,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 457.2 84.582 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 454.66 104.902 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25245,7 +25512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 457.2 86.36 0)
+			(at 454.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25254,7 +25521,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 457.2 86.36 0)
+			(at 454.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25271,7 +25538,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R15")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -25287,7 +25554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f190554b-7548-4129-937a-38f9e6fdd15a")
-		(property "Reference" "C42"
+		(property "Reference" "C45"
 			(at 351.79 259.08 90)
 			(effects
 				(font
@@ -25303,7 +25570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 355.6 265.7348 0)
 			(effects
 				(font
@@ -25348,7 +25615,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C42")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -25356,7 +25623,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 520.7 63.5 0)
+		(at 518.16 83.82 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25364,8 +25631,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3035b04-a1d8-49e2-a32d-003fc8d64ce0")
-		(property "Reference" "C24"
-			(at 518.16 62.23 0)
+		(property "Reference" "C15"
+			(at 515.62 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25374,7 +25641,7 @@
 			)
 		)
 		(property "Value" "30p"
-			(at 518.16 64.77 0)
+			(at 515.62 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25382,8 +25649,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 519.7348 67.31 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 517.1948 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25392,7 +25659,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 520.7 63.5 0)
+			(at 518.16 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25401,7 +25668,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 520.7 63.5 0)
+			(at 518.16 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25410,7 +25677,7 @@
 			)
 		)
 		(property "LCSC" " C1658"
-			(at 520.7 63.5 0)
+			(at 518.16 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25427,7 +25694,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C24")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -25443,7 +25710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f377853b-c5bc-4aa9-993b-618d61bfee03")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR045"
 			(at 93.98 199.39 0)
 			(effects
 				(font
@@ -25493,7 +25760,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR033")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -25509,7 +25776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6c6bfbb-8dd0-4672-9087-2ac9b2187edd")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 345.44 275.5899 0)
 			(effects
 				(font
@@ -25554,6 +25821,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 346.71 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "bd8b01f0-bfc9-468d-a1e2-409b6da83f94")
 		)
@@ -25581,7 +25857,7 @@
 		(instances
 			(project ""
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "U10")
+					(reference "U11")
 					(unit 3)
 				)
 			)
@@ -25596,7 +25872,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f71937e6-34ac-49ad-9bd0-7203b832e0e2")
-		(property "Reference" "C3"
+		(property "Reference" "C9"
 			(at 133.35 48.26 0)
 			(effects
 				(font
@@ -25614,7 +25890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 131.7752 53.34 0)
 			(effects
 				(font
@@ -25659,7 +25935,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "C3")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -25667,15 +25943,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 457.2 83.82 90)
+		(at 454.66 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f782188c-a02a-48fd-9ab1-d706f57a4553")
-		(property "Reference" "R14"
-			(at 459.232 79.502 90)
+		(property "Reference" "R17"
+			(at 456.692 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25684,7 +25960,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 458.47 81.534 90)
+			(at 455.93 101.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25692,8 +25968,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 457.2 85.598 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 454.66 105.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25702,7 +25978,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 457.2 83.82 0)
+			(at 454.66 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25711,7 +25987,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 457.2 83.82 0)
+			(at 454.66 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25728,7 +26004,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "R14")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -25744,7 +26020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa5c504f-9b0a-4195-9d81-be4fe89b3e63")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR056"
 			(at 190.5 247.65 0)
 			(effects
 				(font
@@ -25794,7 +26070,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR052")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -25802,7 +26078,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 480.06 29.21 0)
+		(at 477.52 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25810,8 +26086,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fba738a6-14f0-4c47-8a20-365a3a3c7739")
-		(property "Reference" "#PWR025"
-			(at 480.06 33.02 0)
+		(property "Reference" "#PWR06"
+			(at 477.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25820,7 +26096,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 480.06 24.13 0)
+			(at 477.52 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25828,7 +26104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 480.06 29.21 0)
+			(at 477.52 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25837,7 +26113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 480.06 29.21 0)
+			(at 477.52 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25846,7 +26122,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 480.06 29.21 0)
+			(at 477.52 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25860,7 +26136,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR025")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -25876,7 +26152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc0a2e55-6a24-49ed-b9e8-f3e5022203fd")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR062"
 			(at 252.73 271.78 0)
 			(effects
 				(font
@@ -25926,7 +26202,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR056")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -25960,7 +26236,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 301.498 271.78 90)
 			(effects
 				(font
@@ -26012,7 +26288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffa5ac83-4564-43c8-a297-dc8f4de5f9c8")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR041"
 			(at 302.26 181.61 0)
 			(effects
 				(font
@@ -26062,7 +26338,7 @@
 		(instances
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
-					(reference "#PWR043")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
