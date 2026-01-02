@@ -5460,6 +5460,12 @@
 		(uuid "3f3916c5-bdcd-48f9-89ae-0d84f1f2b5fa")
 	)
 	(junction
+		(at 472.44 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "434333d8-05e6-4f34-ae7c-70e8a7d8391f")
+	)
+	(junction
 		(at 290.83 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5796,6 +5802,12 @@
 		(uuid "b4965afd-dd97-4625-b7b8-891374d206c4")
 	)
 	(junction
+		(at 298.45 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4f43f60-057a-4668-a0de-d84bdb365de8")
+	)
+	(junction
 		(at 163.83 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5808,6 +5820,12 @@
 		(uuid "b939c2b7-2d37-4525-ad87-5e9dcda0480a")
 	)
 	(junction
+		(at 185.42 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb787e81-678e-4dac-9432-fe1ce7906e38")
+	)
+	(junction
 		(at 557.53 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5818,6 +5836,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd292d7b-0020-4eb0-aa49-60beabb6b74b")
+	)
+	(junction
+		(at 302.26 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bec236ea-4ad1-4e57-9333-9bd7d8276048")
 	)
 	(junction
 		(at 477.52 113.03)
@@ -5946,6 +5970,12 @@
 		(uuid "ddd7ccb9-3268-432e-9d8d-bb5f88a39255")
 	)
 	(junction
+		(at 474.98 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de0858c1-032c-40f7-a036-864e84651a28")
+	)
+	(junction
 		(at 317.5 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5998,6 +6028,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa304ddb-e317-4b78-981c-24ae5e5564b6")
+	)
+	(junction
+		(at 182.88 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcf110d7-4010-4134-82fe-fb822e1f3043")
 	)
 	(junction
 		(at 69.85 60.96)
@@ -6224,6 +6260,16 @@
 			(type default)
 		)
 		(uuid "0784e712-6bd7-413e-a8a4-c7fc18991a9c")
+	)
+	(wire
+		(pts
+			(xy 472.44 248.92) (xy 480.06 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07865f0b-39f3-4384-96b1-cb90e833ed8b")
 	)
 	(wire
 		(pts
@@ -7217,7 +7263,7 @@
 	)
 	(wire
 		(pts
-			(xy 487.68 160.02) (xy 492.76 160.02)
+			(xy 490.22 160.02) (xy 492.76 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7324,6 +7370,16 @@
 			(type default)
 		)
 		(uuid "42cfafb0-529d-46dd-9dc2-f3a57b81850f")
+	)
+	(wire
+		(pts
+			(xy 474.98 160.02) (xy 482.6 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f7d3cc-5abf-4283-a410-4d809da9a5c5")
 	)
 	(wire
 		(pts
@@ -7467,7 +7523,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 162.56) (xy 309.88 162.56)
+			(xy 298.45 162.56) (xy 302.26 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7567,7 +7623,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 251.46) (xy 307.34 251.46)
+			(xy 294.64 251.46) (xy 298.45 251.46)
 		)
 		(stroke
 			(width 0)
@@ -7617,6 +7673,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 167.64) (xy 193.04 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528d12f6-20f9-4f30-9fe2-e3fbc2466a3d")
+	)
+	(wire
+		(pts
 			(xy 224.79 81.28) (xy 228.6 81.28)
 		)
 		(stroke
@@ -7637,7 +7703,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 167.64) (xy 175.26 167.64)
+			(xy 165.1 167.64) (xy 172.72 167.64)
 		)
 		(stroke
 			(width 0)
@@ -8337,7 +8403,7 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 160.02) (xy 480.06 160.02)
+			(xy 473.71 160.02) (xy 474.98 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8887,6 +8953,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 251.46) (xy 307.34 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8ac95b-d475-452c-8d33-a5e77d56536d")
+	)
+	(wire
+		(pts
 			(xy 365.76 167.64) (xy 365.76 187.96)
 		)
 		(stroke
@@ -8897,7 +8973,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 167.64) (xy 193.04 167.64)
+			(xy 180.34 167.64) (xy 185.42 167.64)
 		)
 		(stroke
 			(width 0)
@@ -9027,7 +9103,7 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 248.92) (xy 490.22 248.92)
+			(xy 487.68 248.92) (xy 490.22 248.92)
 		)
 		(stroke
 			(width 0)
@@ -9257,7 +9333,7 @@
 	)
 	(wire
 		(pts
-			(xy 471.17 248.92) (xy 477.52 248.92)
+			(xy 471.17 248.92) (xy 472.44 248.92)
 		)
 		(stroke
 			(width 0)
@@ -9374,6 +9450,16 @@
 			(type default)
 		)
 		(uuid "bb1f7d69-1f45-492e-9474-a96b63103f96")
+	)
+	(wire
+		(pts
+			(xy 407.67 251.46) (xy 417.83 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbbd9853-dfb2-4cc5-a436-0ed523bfa0c3")
 	)
 	(wire
 		(pts
@@ -9647,7 +9733,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 256.54) (xy 172.72 256.54)
+			(xy 162.56 256.54) (xy 170.18 256.54)
 		)
 		(stroke
 			(width 0)
@@ -9697,7 +9783,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 256.54) (xy 190.5 256.54)
+			(xy 177.8 256.54) (xy 182.88 256.54)
 		)
 		(stroke
 			(width 0)
@@ -9737,6 +9823,26 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 162.56) (xy 309.88 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cacc06d5-3483-4bf9-bd1c-95085294f9b3")
+	)
+	(wire
+		(pts
+			(xy 182.88 256.54) (xy 190.5 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caeb7e98-2d54-4fd1-809a-43618f7345b4")
+	)
+	(wire
+		(pts
 			(xy 285.75 49.53) (xy 285.75 52.07)
 		)
 		(stroke
@@ -9754,16 +9860,6 @@
 			(type default)
 		)
 		(uuid "cb2fa086-30fc-4d9e-9ef3-b23a1f965423")
-	)
-	(wire
-		(pts
-			(xy 407.67 251.46) (xy 417.83 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cba23100-2e0e-4a41-aac5-33eef52738b1")
 	)
 	(wire
 		(pts
@@ -10037,7 +10133,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 251.46) (xy 292.1 251.46)
+			(xy 284.48 251.46) (xy 287.02 251.46)
 		)
 		(stroke
 			(width 0)
@@ -10107,7 +10203,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 162.56) (xy 294.64 162.56)
+			(xy 287.02 162.56) (xy 290.83 162.56)
 		)
 		(stroke
 			(width 0)
@@ -11245,7 +11341,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 481.33 248.92 90)
+		(at 483.87 248.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11254,7 +11350,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ce75924-39cf-4abc-8759-3f69f06fc307")
 		(property "Reference" "C38"
-			(at 480.441 241.3 90)
+			(at 482.981 241.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11262,7 +11358,7 @@
 			)
 		)
 		(property "Value" "1000u"
-			(at 480.441 243.84 90)
+			(at 482.981 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11270,7 +11366,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
-			(at 485.14 247.9548 0)
+			(at 487.68 247.9548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11279,7 +11375,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 481.33 248.92 0)
+			(at 483.87 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11288,7 +11384,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 481.33 248.92 0)
+			(at 483.87 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11297,7 +11393,7 @@
 			)
 		)
 		(property "LCSC" "C3359"
-			(at 481.33 248.92 90)
+			(at 483.87 248.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12556,6 +12652,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 182.88 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20787ad7-1cf3-4beb-84aa-22c2b1a26b5c")
+		(property "Reference" "TP14"
+			(at 179.324 248.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "in_r"
+			(at 179.324 251.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 182.88 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d42b0627-046e-44f5-8168-0b672cd07c7d")
+		)
+		(instances
+			(project "USB_DAC-AMP_V4_credit_card"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 364.49 196.85 0)
 		(unit 1)
@@ -12838,7 +13000,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 179.07 167.64 270)
+		(at 176.53 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12847,7 +13009,7 @@
 		(fields_autoplaced yes)
 		(uuid "2370f1dc-e68b-4d92-8c63-6da395f59a1f")
 		(property "Reference" "C29"
-			(at 179.959 160.02 90)
+			(at 177.419 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12855,7 +13017,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 179.959 162.56 90)
+			(at 177.419 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12863,7 +13025,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 175.26 168.6052 0)
+			(at 172.72 168.6052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12872,7 +13034,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 167.64 0)
+			(at 176.53 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12881,7 +13043,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 179.07 167.64 0)
+			(at 176.53 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12890,7 +13052,7 @@
 			)
 		)
 		(property "LCSC" "C3339"
-			(at 179.07 167.64 90)
+			(at 176.53 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14315,6 +14477,72 @@
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 302.26 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c6ecfc7-6199-435a-bd65-196bf637f912")
+		(property "Reference" "TP15"
+			(at 298.704 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "buffer1_l"
+			(at 298.704 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 307.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 302.26 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4a9b3b6-b305-4e4c-9dc6-64dbe706f754")
+		)
+		(instances
+			(project "USB_DAC-AMP_V4_credit_card"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -18841,6 +19069,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 298.45 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "807aac5b-c7cf-4f62-9e7f-4a0562555f05")
+		(property "Reference" "TP16"
+			(at 294.894 243.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "buffer1_r"
+			(at 294.894 246.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 303.53 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 303.53 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 298.45 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f666dbc-dec3-4547-a9f0-5e8d9d14c14b")
+		)
+		(instances
+			(project "USB_DAC-AMP_V4_credit_card"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 220.98 173.99 0)
 		(unit 1)
@@ -19499,7 +19793,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 298.45 162.56 90)
+		(at 294.64 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19508,7 +19802,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fc9463e-5f1e-4e21-b5b2-a3bbf05f4863")
 		(property "Reference" "C27"
-			(at 297.561 154.94 90)
+			(at 293.751 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19516,7 +19810,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 297.561 157.48 90)
+			(at 293.751 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19524,7 +19818,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 302.26 161.5948 0)
+			(at 298.45 161.5948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19533,7 +19827,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 298.45 162.56 0)
+			(at 294.64 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19542,7 +19836,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 298.45 162.56 0)
+			(at 294.64 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19551,7 +19845,7 @@
 			)
 		)
 		(property "LCSC" "C3339"
-			(at 298.45 162.56 90)
+			(at 294.64 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20849,6 +21143,72 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 474.98 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a52eaca3-e916-48f1-8c29-0044297941c8")
+		(property "Reference" "TP12"
+			(at 471.424 152.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "buffer2_l"
+			(at 471.424 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 480.06 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 480.06 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 474.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9a0176b-fa07-49a0-b05e-4fa11a26e8f7")
+		)
+		(instances
+			(project "USB_DAC-AMP_V4_credit_card"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 264.16 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21598,7 +21958,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 295.91 251.46 90)
+		(at 290.83 251.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21607,7 +21967,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2b7d0e6-14ce-4be4-8e58-927cf18e138b")
 		(property "Reference" "C39"
-			(at 295.021 243.84 90)
+			(at 289.941 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21615,7 +21975,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 295.021 246.38 90)
+			(at 289.941 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21623,7 +21983,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 299.72 250.4948 0)
+			(at 294.64 250.4948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21632,7 +21992,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 295.91 251.46 0)
+			(at 290.83 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21641,7 +22001,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 295.91 251.46 0)
+			(at 290.83 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21650,7 +22010,7 @@
 			)
 		)
 		(property "LCSC" "C3339"
-			(at 295.91 251.46 90)
+			(at 290.83 251.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23071,7 +23431,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 176.53 256.54 270)
+		(at 173.99 256.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23080,7 +23440,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8395d92-dc2e-4cbf-8bf0-9102c7198198")
 		(property "Reference" "C41"
-			(at 177.419 248.92 90)
+			(at 174.879 248.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23088,7 +23448,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 177.419 251.46 90)
+			(at 174.879 251.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23096,7 +23456,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 172.72 257.5052 0)
+			(at 170.18 257.5052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23105,7 +23465,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 256.54 0)
+			(at 173.99 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23114,7 +23474,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 176.53 256.54 0)
+			(at 173.99 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23123,7 +23483,7 @@
 			)
 		)
 		(property "LCSC" "C3339"
-			(at 176.53 256.54 90)
+			(at 173.99 256.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23147,33 +23507,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 483.87 160.02 90)
+		(lib_id "Connector:TestPoint")
+		(at 472.44 248.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c95255e8-a1f3-4d51-840c-1ac4ff39c1ce")
-		(property "Reference" "C26"
-			(at 482.981 152.4 90)
+		(uuid "c86b860e-7fbb-412d-bce6-591fe43b586a")
+		(property "Reference" "TP11"
+			(at 468.884 241.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1000u"
-			(at 482.981 154.94 90)
+		(property "Value" "buffer2_r"
+			(at 468.884 243.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
-			(at 487.68 159.0548 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 477.52 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23182,7 +23543,72 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 483.87 160.02 0)
+			(at 477.52 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 472.44 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82b76c0b-5876-4a44-906e-6b09f591aeda")
+		)
+		(instances
+			(project "USB_DAC-AMP_V4_credit_card"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 486.41 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c95255e8-a1f3-4d51-840c-1ac4ff39c1ce")
+		(property "Reference" "C26"
+			(at 485.521 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000u"
+			(at 485.521 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+			(at 490.22 159.0548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 486.41 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23191,7 +23617,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 483.87 160.02 0)
+			(at 486.41 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23200,7 +23626,7 @@
 			)
 		)
 		(property "LCSC" "C3359"
-			(at 483.87 160.02 90)
+			(at 486.41 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24223,6 +24649,72 @@
 			(project "USB_DAC-AMP"
 				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 185.42 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6e1b558-3ffa-4815-af62-232d1033f955")
+		(property "Reference" "TP13"
+			(at 181.864 159.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "in_l"
+			(at 181.864 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 190.5 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 185.42 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "239f2806-6f24-4617-8121-087137ec95ca")
+		)
+		(instances
+			(project "USB_DAC-AMP_V4_credit_card"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
