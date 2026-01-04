@@ -51,7 +51,7 @@
       "shapes"
     ],
     "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffaf",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "git": {
     "repo_type": "",
@@ -95,11 +95,11 @@
       21,
       19,
       12,
-      9,
+      10,
       12,
       12,
       12,
-      9,
+      10,
       12,
       12,
       12,

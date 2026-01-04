@@ -1680,7 +1680,7 @@
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
 		(layer "F.Cu")
 		(uuid "0bb99091-f79a-4dde-a872-b769e54ba6ee")
-		(at 214.2925 119.85)
+		(at 217.3 114.3)
 		(descr "Tantalum Capacitor SMD Kemet-X (7343-43 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C40"
@@ -1912,7 +1912,7 @@
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
 		(layer "F.Cu")
 		(uuid "0c44cc03-84d5-48b5-b86a-8adc0fac2bff")
-		(at 214.2925 90.6)
+		(at 217.3 85.05)
 		(descr "Tantalum Capacitor SMD Kemet-X (7343-43 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C25"
@@ -2308,7 +2308,7 @@
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
 		(layer "F.Cu")
 		(uuid "0e1a9220-cae1-4cce-89ed-69465022be62")
-		(at 214.2925 96.45)
+		(at 217.3 90.9)
 		(descr "Tantalum Capacitor SMD Kemet-X (7343-43 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C27"
@@ -3399,7 +3399,7 @@
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
 		(layer "F.Cu")
 		(uuid "124d45b9-43de-4d42-a203-256f528f8c4b")
-		(at 214.2925 114)
+		(at 217.3 108.45)
 		(descr "Tantalum Capacitor SMD Kemet-X (7343-43 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C35"
@@ -13650,7 +13650,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "57a421b2-4381-4708-b415-1ffb4b7384ea")
-		(at 221.5675 83.08)
+		(at 222.2 69.05)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C47"
@@ -16969,7 +16969,7 @@
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
 		(layer "F.Cu")
 		(uuid "75cd7b31-4685-4ec6-888f-5d5bbb515756")
-		(at 214.2925 125.7)
+		(at 217.3 120.15)
 		(descr "Tantalum Capacitor SMD Kemet-X (7343-43 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C41"
@@ -17565,7 +17565,7 @@
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
 		(layer "F.Cu")
 		(uuid "7c4af841-6cda-4773-bcf3-3ceaca91fa04")
-		(at 214.2925 84.75)
+		(at 217.3 79.2)
 		(descr "Tantalum Capacitor SMD Kemet-X (7343-43 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C15"
@@ -21612,7 +21612,7 @@
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
 		(layer "F.Cu")
 		(uuid "b32f50cd-65d8-4997-bc6c-097eb1dfcef8")
-		(at 214.2925 108.15)
+		(at 217.3 102.6)
 		(descr "Tantalum Capacitor SMD Kemet-X (7343-43 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C31"
@@ -22978,7 +22978,7 @@
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
 		(layer "F.Cu")
 		(uuid "beae617f-8efe-4512-b04c-57f870c32de8")
-		(at 214.2925 102.3)
+		(at 217.3 96.75)
 		(descr "Tantalum Capacitor SMD Kemet-X (7343-43 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C30"
@@ -23849,7 +23849,7 @@
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
 		(layer "F.Cu")
 		(uuid "c62b8d02-342f-423f-b2fb-f2cd3b1a6dde")
-		(at 214.2925 78.9)
+		(at 214.95 68.5)
 		(descr "Tantalum Capacitor SMD Kemet-X (7343-43 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C14"
@@ -24281,7 +24281,7 @@
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W"
 		(layer "F.Cu")
 		(uuid "cbc5170b-6974-42a7-a047-c2495b2ad230")
-		(at 224.3675 78.9)
+		(at 227.375 73.35)
 		(descr "Tantalum Capacitor SMD Kemet-W (7343-15 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C37"
@@ -25879,7 +25879,7 @@
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
 		(layer "F.Cu")
 		(uuid "d360c2ca-d7c1-4c7d-9fa0-0d8e0fa42f25")
-		(at 214.2925 131.55)
+		(at 217.3 126)
 		(descr "Tantalum Capacitor SMD Kemet-X (7343-43 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C45"

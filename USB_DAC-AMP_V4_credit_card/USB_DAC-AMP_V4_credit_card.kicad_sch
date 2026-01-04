@@ -5574,6 +5574,12 @@
 		(uuid "7488d051-0414-435b-b064-bc83a2a34fb7")
 	)
 	(junction
+		(at 430.53 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75386bbb-4571-46b7-a033-0f773be99c72")
+	)
+	(junction
 		(at 383.54 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6098,10 +6104,6 @@
 		(uuid "777f2ded-b666-450d-bf05-f3f9936ca4bb")
 	)
 	(no_connect
-		(at 459.74 91.44)
-		(uuid "85085c90-9e72-42ca-a50c-d29b12cf37fd")
-	)
-	(no_connect
 		(at 543.56 157.48)
 		(uuid "89f0b05e-88fb-49fd-9947-215acf0b24ef")
 	)
@@ -6370,6 +6372,16 @@
 			(type default)
 		)
 		(uuid "0daa0956-95db-4ac2-8fcd-3a23612c0be9")
+	)
+	(wire
+		(pts
+			(xy 430.53 91.44) (xy 430.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f1f0c31-117c-4bf5-866f-7d717a94bf3c")
 	)
 	(wire
 		(pts
@@ -7543,6 +7555,16 @@
 	)
 	(wire
 		(pts
+			(xy 454.66 91.44) (xy 459.74 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf2d722-3cb6-4bf5-8f13-d6aee81e6a97")
+	)
+	(wire
+		(pts
 			(xy 459.74 86.36) (xy 458.47 86.36)
 		)
 		(stroke
@@ -7883,7 +7905,7 @@
 	)
 	(wire
 		(pts
-			(xy 430.53 83.82) (xy 430.53 96.52)
+			(xy 430.53 83.82) (xy 430.53 91.44)
 		)
 		(stroke
 			(width 0)
@@ -10063,6 +10085,16 @@
 	)
 	(wire
 		(pts
+			(xy 430.53 91.44) (xy 447.04 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78845af-8543-410f-b723-049608dcf220")
+	)
+	(wire
+		(pts
 			(xy 364.49 198.12) (xy 364.49 196.85)
 		)
 		(stroke
@@ -11141,7 +11173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 388.62 279.4 0)
 			(effects
 				(font
@@ -11861,7 +11893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 339.09 276.86 0)
 			(effects
 				(font
@@ -11957,7 +11989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 349.25 187.96 0)
 			(effects
 				(font
@@ -12149,6 +12181,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 430.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C193681"
 			(at 430.53 100.33 0)
 			(effects
 				(font
@@ -12368,6 +12409,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C193681"
+			(at 247.65 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "24f2cfdf-3b29-4fd1-b930-fa1ee419e0fe")
 		)
@@ -12436,6 +12486,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C217885"
+			(at 374.65 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c9e4f6eb-a7e5-4cb5-ad6e-9ac69a190c35")
 		)
@@ -12497,6 +12556,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 463.55 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C412388"
+			(at 463.55 248.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12983,6 +13051,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C316055"
+			(at 99.06 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7fa49a18-ee3b-4c20-86bf-e3342c46ad63")
 		)
@@ -13101,7 +13178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 271.78 162.56 0)
 			(effects
 				(font
@@ -13261,7 +13338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 391.16 190.5 0)
 			(effects
 				(font
@@ -13596,6 +13673,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C217885"
+			(at 190.5 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b068247a-ee5a-458f-b2b9-62d2de56dabe")
 		)
@@ -13658,6 +13744,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 193.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C217885"
 			(at 193.04 161.29 0)
 			(effects
 				(font
@@ -14113,6 +14208,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C412388"
+			(at 466.09 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "af7512ba-ab46-4a7d-9bfb-3e28dcc523cb")
 		)
@@ -14251,6 +14355,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 374.65 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C193681"
+			(at 374.65 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15022,7 +15135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 83.82 201.93 0)
 			(effects
 				(font
@@ -15117,7 +15230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 433.07 160.02 0)
 			(effects
 				(font
@@ -15442,6 +15555,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 38.1 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C217885"
 			(at 38.1 210.82 0)
 			(effects
 				(font
@@ -15858,7 +15980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 433.07 190.5 0)
 			(effects
 				(font
@@ -16214,6 +16336,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C326730"
+			(at 236.22 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b826e600-be01-4117-b364-78fc750fe22b")
 		)
@@ -16347,6 +16478,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 374.65 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C84265"
 			(at 374.65 40.64 0)
 			(effects
 				(font
@@ -16606,7 +16746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 223.52 165.1 0)
 			(effects
 				(font
@@ -16782,7 +16922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 438.15 248.92 0)
 			(effects
 				(font
@@ -16981,6 +17121,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C217885"
+			(at 372.11 281.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "14d75607-e901-4f9c-8cfb-e4d019a1a48d")
 		)
@@ -17107,6 +17256,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 236.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C217885"
 			(at 236.22 96.52 0)
 			(effects
 				(font
@@ -17366,7 +17524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 430.53 248.92 0)
 			(effects
 				(font
@@ -17605,7 +17763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 76.2 201.93 0)
 			(effects
 				(font
@@ -17721,6 +17879,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 38.1 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C217885"
 			(at 38.1 198.12 0)
 			(effects
 				(font
@@ -18172,6 +18339,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C326730"
+			(at 527.05 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a52bf077-3ea9-4dd6-b99f-84227654bd33")
 		)
@@ -18215,7 +18391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 220.98 254 0)
 			(effects
 				(font
@@ -18863,7 +19039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 215.9 165.1 0)
 			(effects
 				(font
@@ -18985,6 +19161,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C193681"
+			(at 245.11 254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3ca6d1f3-db92-4ba8-beb8-05aa5f461207")
 		)
@@ -19045,6 +19230,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 492.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C193681"
 			(at 492.76 166.37 0)
 			(effects
 				(font
@@ -19227,7 +19421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 440.69 160.02 0)
 			(effects
 				(font
@@ -19341,6 +19535,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 490.22 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C193681"
 			(at 490.22 255.27 0)
 			(effects
 				(font
@@ -19549,6 +19752,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C412388"
+			(at 463.55 279.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2f89e22-c057-4690-87ee-35d8848f61af")
 		)
@@ -19656,7 +19868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 76.2 233.68 0)
 			(effects
 				(font
@@ -19894,7 +20106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 269.24 251.46 0)
 			(effects
 				(font
@@ -20500,7 +20712,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.5K"
+		(property "Value" "22K"
 			(at 304.8 184.1499 0)
 			(effects
 				(font
@@ -20528,6 +20740,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 302.26 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C217885"
 			(at 302.26 182.88 0)
 			(effects
 				(font
@@ -20675,6 +20896,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 372.11 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C193681"
+			(at 372.11 276.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21118,6 +21348,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 236.22 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C217885"
 			(at 236.22 85.09 0)
 			(effects
 				(font
@@ -21862,6 +22101,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C136969"
+			(at 344.17 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "42c6adee-0d74-4712-b8eb-bc61f6a94fdd")
 		)
@@ -22560,6 +22808,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C412388"
+			(at 477.52 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e803ab7d-5960-4bf7-a643-6d6590df0710")
 		)
@@ -23073,6 +23330,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 450.85 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c313f6cb-264a-4ead-b8d5-982daeea15cf")
+		(property "Reference" "R40"
+			(at 449.58 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5K"
+			(at 452.12 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 450.85 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 450.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 450.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C193681"
+			(at 450.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fafbbd95-b302-47f1-a549-a7b13c932f8b")
+		)
+		(pin "1"
+			(uuid "7d5f3ff2-0759-4702-8315-428260183c84")
+		)
+		(instances
+			(project "USB_DAC-AMP_V4_credit_card"
+				(path "/19e75845-067b-4b0c-a197-69dc37b3c56c"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 163.83 45.72 0)
 		(unit 1)
@@ -23196,6 +23531,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 236.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C705797"
 			(at 236.22 54.61 0)
 			(effects
 				(font
@@ -23675,7 +24019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 430.53 279.4 0)
 			(effects
 				(font
@@ -24135,7 +24479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 341.63 187.96 0)
 			(effects
 				(font
@@ -24375,7 +24719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 213.36 254 0)
 			(effects
 				(font
@@ -24774,6 +25118,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C193681"
+			(at 381 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "05e72f85-0c7f-48e0-b3b6-b4bf8b4447f4")
 		)
@@ -24988,6 +25341,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C217885"
+			(at 241.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e55fd0b7-edd7-4d14-a8ee-b3cc8e4ac315")
 		)
@@ -25135,6 +25497,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C217899"
+			(at 326.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "96c3663a-904f-4523-a1f3-d230391cfab6")
 		)
@@ -25196,6 +25567,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 326.39 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C217885"
 			(at 326.39 54.61 0)
 			(effects
 				(font
@@ -25819,6 +26199,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C412388"
+			(at 466.09 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1667e7aa-0b68-49fa-9765-de3cc9496412")
 		)
@@ -26014,6 +26403,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 454.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C217888"
+			(at 454.66 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26286,7 +26684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 346.71 276.86 0)
 			(effects
 				(font
@@ -26480,6 +26878,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 454.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C217888"
+			(at 454.66 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26719,7 +27126,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.5K"
+		(property "Value" "22K"
 			(at 302.26 273.0499 0)
 			(effects
 				(font
@@ -26747,6 +27154,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 299.72 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C217885"
 			(at 299.72 271.78 0)
 			(effects
 				(font

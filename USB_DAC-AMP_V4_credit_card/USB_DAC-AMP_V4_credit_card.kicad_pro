@@ -63,28 +63,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|91950000|31965000|37959332-0463-4307-a399-1cec7107172d|cc5043ee-a173-4e8b-ac98-bb630ee60f4a",
-          ""
-        ],
-        [
-          "silk_over_copper|92500000|114192232|55d88251-d7bb-46ec-a80f-afe8f2ad101f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|92753918|97902298|8aa04718-470a-4326-8dc6-b2798089be46|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|94999937|114862500|d8bf7613-2949-4ec9-ac20-f94f1dcb4b59|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|97500000|114862500|4fb190e5-03b2-444d-a934-176571a659ef|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -701,7 +680,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
