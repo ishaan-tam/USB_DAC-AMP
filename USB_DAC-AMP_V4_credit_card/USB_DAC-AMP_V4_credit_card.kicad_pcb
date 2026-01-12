@@ -54,6 +54,7 @@
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
+				(color "Aluminum")
 				(thickness 0.1)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -65,6 +66,7 @@
 			)
 			(layer "dielectric 2"
 				(type "core")
+				(color "#808080FF")
 				(thickness 1.24)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -76,6 +78,7 @@
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
+				(color "Aluminum")
 				(thickness 0.1)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -35588,7 +35591,7 @@
 		(uuid "cf35e87b-bc67-467b-bee4-6dcae72592f0")
 	)
 	(via
-		(at 86.4 87.4)
+		(at 86.4 88)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
